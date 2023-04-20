@@ -728,7 +728,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/Dev\/scss\/sections\/_about.scss" : {
+    "\/Dev\/scss\/sections\/_details.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -737,7 +737,37 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_about.css",
+      "oAP" : "\/Dev\/scss\/sections\/_details.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/Dev\/scss\/sections\/_events.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/scss\/sections\/_events.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/Dev\/scss\/sections\/_explore.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/scss\/sections\/_explore.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -758,7 +788,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/Dev\/scss\/sections\/_partners.scss" : {
+    "\/Dev\/scss\/sections\/_photos.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -767,28 +797,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_partners.css",
+      "oAP" : "\/Dev\/scss\/sections\/_photos.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Dev\/scss\/sections\/_requests.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_requests.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/Dev\/scss\/sections\/styles.scss" : {
+    "\/Dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -797,7 +812,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Deploy\/css\/styles.css",
+      "oAP" : "\/Dev\/scss\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
