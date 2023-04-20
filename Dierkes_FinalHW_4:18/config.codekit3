@@ -7,17 +7,27 @@
       "uuidString" : "27391009-BB20-4655-BA2D-57D56A54CDA6"
     }
   ],
-  "creatorBuild" : "34472",
+  "creatorBuild" : "34484",
   "files" : {
+    "\/Assets\/arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/Bulbs.jpg" : {
       "ft" : 16384,
-      "iS" : 136670,
+      "iS" : 114508,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Bulbs.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -50,13 +60,13 @@
     },
     "\/Assets\/Expert.jpg" : {
       "ft" : 16384,
-      "iS" : 77671,
+      "iS" : 71646,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Expert.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -112,13 +122,13 @@
     },
     "\/Assets\/Hero.jpg" : {
       "ft" : 16384,
-      "iS" : 2774667,
+      "iS" : 2456207,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -169,11 +179,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Assets\/Logo.svg" : {
+    "\/Assets\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Assets\/Logo.svg",
+      "oAP" : "\/Assets\/logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -202,11 +212,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Assets\/Search.svg" : {
+    "\/Assets\/search.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Assets\/Search.svg",
+      "oAP" : "\/Assets\/search.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -244,15 +254,15 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/Deploy\/img\/feature\/Bulbs.jpg" : {
+    "\/Deploy\/img\/feature\/bulbs.jpg" : {
       "ft" : 16384,
       "iS" : 114508,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Deploy\/img\/feature\/Bulbs.jpg",
+      "oAP" : "\/Deploy\/img\/feature\/bulbs.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -283,15 +293,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Deploy\/img\/feature\/Expert.jpg" : {
+    "\/Deploy\/img\/feature\/expert.jpg" : {
       "ft" : 16384,
       "iS" : 71646,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Deploy\/img\/feature\/Expert.jpg",
+      "oAP" : "\/Deploy\/img\/feature\/expert.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -309,81 +319,91 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Deploy\/img\/Global\/facebook.svg" : {
+    "\/Deploy\/img\/global\/arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Deploy\/img\/Global\/facebook.svg",
+      "oAP" : "\/Deploy\/img\/global\/arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Deploy\/img\/Global\/instagram.svg" : {
+    "\/Deploy\/img\/global\/facebook.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Deploy\/img\/Global\/instagram.svg",
+      "oAP" : "\/Deploy\/img\/global\/facebook.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Deploy\/img\/Global\/location.svg" : {
+    "\/Deploy\/img\/global\/instagram.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Deploy\/img\/Global\/location.svg",
+      "oAP" : "\/Deploy\/img\/global\/instagram.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Deploy\/img\/Global\/logo.svg" : {
+    "\/Deploy\/img\/global\/location.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Deploy\/img\/Global\/logo.svg",
+      "oAP" : "\/Deploy\/img\/global\/location.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Deploy\/img\/Global\/mobile.svg" : {
+    "\/Deploy\/img\/global\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Deploy\/img\/Global\/mobile.svg",
+      "oAP" : "\/Deploy\/img\/global\/logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Deploy\/img\/Global\/search.svg" : {
+    "\/Deploy\/img\/global\/mobile.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Deploy\/img\/Global\/search.svg",
+      "oAP" : "\/Deploy\/img\/global\/mobile.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Deploy\/img\/Global\/twitter.svg" : {
+    "\/Deploy\/img\/global\/search.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Deploy\/img\/Global\/twitter.svg",
+      "oAP" : "\/Deploy\/img\/global\/search.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Deploy\/img\/Global\/youtube.svg" : {
+    "\/Deploy\/img\/global\/twitter.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Deploy\/img\/Global\/youtube.svg",
+      "oAP" : "\/Deploy\/img\/global\/twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Deploy\/img\/global\/youtube.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Deploy\/img\/global\/youtube.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -510,12 +530,12 @@
       "oAP" : "\/Dev\/content\/explore.html",
       "oF" : 0
     },
-    "\/Dev\/content\/Heroes.kit" : {
+    "\/Dev\/content\/heroes.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/Dev\/content\/Heroes.html",
+      "oAP" : "\/Dev\/content\/heroes.html",
       "oF" : 0
     },
     "\/Dev\/content\/photos.kit" : {
@@ -555,8 +575,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/Deploy\/index.html",
+      "oF" : 2
     }
   },
   "hooks" : [
@@ -2140,7 +2160,10 @@
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -2149,36 +2172,36 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
+    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
     "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
