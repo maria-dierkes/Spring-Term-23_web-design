@@ -728,7 +728,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/Dev\/scss\/sections\/_heroes.scss" : {
+    "\/Dev\/scss\/sections\/_details.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -737,7 +737,22 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_heroes.css",
+      "oAP" : "\/Dev\/scss\/sections\/_details.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/Dev\/scss\/sections\/_events.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/scss\/sections\/_events.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -752,8 +767,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Deploy\/css\/styles.css",
-      "oF" : 2,
+      "oAP" : "\/Dev\/scss\/styles.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
