@@ -327,6 +327,19 @@ template {
 /* =============
     Base
 ============= */
+.header-footer-grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header-footer .";
+}
+.header-footer-grid > div {
+  grid-area: header-footer;
+}
+
+.large-images {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -357,9 +370,109 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: #2E3949;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+}
+header > div {
+  grid-area: header;
+}
+
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+}
+footer > div {
+  grid-area: footer;
+}
+
 /* =============
     Heroes
 ============= */
+#heroes {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". heroes .";
+}
+#heroes > div {
+  grid-area: heroes;
+}
+
+/*----- photos -----*/
+#photos {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". heroes .";
+}
+#photos > div {
+  grid-area: heroes;
+}
+
+#hero-2 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". heroes .";
+}
+#hero-2 > div {
+  grid-area: heroes;
+}
+
+#hero-3 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". heroes .";
+}
+#hero-3 > div {
+  grid-area: heroes;
+}
+
+#hero-4 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". heroes .";
+}
+#hero-4 > div {
+  grid-area: heroes;
+}
+
+/* =============
+    Explore
+============= */
+#explore {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". explore .";
+}
+#explore > div {
+  grid-area: explore;
+}
+
+/* =============
+    Details
+============= */
+#details {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". details .";
+}
+#details > div {
+  grid-area: details;
+}
+
+/* =============
+    Events
+============= */
+#events {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". events .";
+}
+#events > div {
+  grid-area: events;
+}

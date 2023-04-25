@@ -797,7 +797,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Deploy\/css\/styles.scss",
+      "oAP" : "\/Deploy\/css\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
@@ -812,7 +812,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 703463892.04774201,
-    "displayValue" : "Dierkes_FinalHW_4:18",
+    "displayValue" : "Spring-Term-23_web-design",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_brown",
     "iconImageWasSetByUser" : 0
