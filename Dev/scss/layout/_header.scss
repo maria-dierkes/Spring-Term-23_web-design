@@ -2,13 +2,24 @@
     Header
 ============= */
 header{
-    background-color: #2E3949;
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
+        background-color: #2E3949;
+        display: grid;
+        grid-template-columns: 3px 150px;
+        grid-template-areas: ". header .";
 
-
+    .heading {
+        font-family: 'Poppins', sans-serif, 'Regular';
+        color: #A14F4C;
+    }
+    .logo{
+        column-width: 16px;
+    }
     >div{
         grid-area: header;
+        columns: 2;
     }
+}
+section.headersearch{
+    color: #A14F4C;
+    grid-template-columns: 3px 150px auto;
 }

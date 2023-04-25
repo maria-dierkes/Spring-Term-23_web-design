@@ -4,9 +4,9 @@
 
 #explore{
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 16px;
     grid-template-areas: ". explore .";
-
+    columns: 2;
     >div{
         grid-area: explore;
 }

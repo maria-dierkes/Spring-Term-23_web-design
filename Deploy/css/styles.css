@@ -373,11 +373,24 @@ textarea {
 header {
   background-color: #2E3949;
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 3px 150px;
   grid-template-areas: ". header .";
+}
+header .heading {
+  font-family: "Poppins", sans-serif, "Regular";
+  color: #A14F4C;
+}
+header .logo {
+  column-width: 16px;
 }
 header > div {
   grid-area: header;
+  columns: 2;
+}
+
+section.headersearch {
+  color: #A14F4C;
+  grid-template-columns: 3px 150px auto;
 }
 
 /* =============
@@ -446,8 +459,9 @@ footer > div {
 ============= */
 #explore {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 16px;
   grid-template-areas: ". explore .";
+  columns: 2;
 }
 #explore > div {
   grid-area: explore;
@@ -460,6 +474,7 @@ footer > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". details .";
+  columns: 2;
 }
 #details > div {
   grid-area: details;
