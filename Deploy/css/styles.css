@@ -378,7 +378,7 @@ header #logo {
 header #logo > div {
   grid-area: logo;
   display: grid;
-  grid-template-columns: 22% auto;
+  grid-template-columns: 80px auto;
   color: #A14F4C;
   font-family: "Poppins", "Regular", "Sans-serif";
 }
@@ -415,10 +415,6 @@ footer > div button {
   background-color: #A14F4C;
   color: #2E3949;
 }
-footer > div ul li a {
-  grid-template-columns: repeat(4, 1fr);
-}
-
 /* =============
     Heroes
 ============= */
@@ -450,12 +446,52 @@ footer > div ul li a {
   background-color: #A14F4C;
   color: #2E3949;
 }
+@media (min-width: 768px) {
+  #events .sub-event > div {
+    display: grid;
+    grid-template-columns: repeat 2, 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% auto;
+  }
+}
 
 /* =============
     photos
 ============= */
-#photos section > div img {
-  width: 100%;
+#photos {
+  display: grid;
+}
+#photos section > div {
+  grid-area: photos;
+}
+#photos section > div ul {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  #photos section > div ul {
+    grid-template-columns: repeat 4, 1fr;
+    grid-template-areas: "p1 p1 p2 p2" ". p3 p3 .";
+  }
+}
+@media (min-width: 1024px) {
+  #photos section > div ul {
+    grid-template-columns: repeat 6, 1fr;
+    grid-template-areas: "p1 p1 p1 p1 p2 p2" ". . p3 p3 . .";
+  }
+}
+#photos section > div ul li {
+  list-style: none;
+  text-align: center;
+}
+#photos section > div ul #p1 {
+  grid-area: p1;
+}
+#photos section > div ul #p2 {
+  grid-area: p2;
+}
+#photos section > div ul #p3 {
+  grid-area: p3;
 }
 
 /* =============
@@ -490,12 +526,18 @@ footer > div ul li a {
   grid-template-areas: ". details .";
   background-color: #B05D5A;
 }
-@media (min-width: 768px) {
-  #details aside {
-    grid-template-columns: 10% auto 10%;
-  }
-}
 #details aside > div {
   grid-area: details;
   font-family: "Poppins", "Regular", "Sans-serif";
+}
+@media (min-width: 768px) {
+  #details aside > div {
+    grid-template-columns: 50% 50%;
+  }
+}
+#details aside #ticket {
+  grid-area: ticket;
+}
+#details aside #location {
+  grid-area: location;
 }

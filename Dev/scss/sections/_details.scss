@@ -9,12 +9,22 @@
         grid-template-areas: ". details .";
         background-color: #B05D5A;
 
-        @include md{
-            grid-template-columns: 10% auto 10%;
-        }
+        
+
         >div{
             grid-area: details;
             font-family: 'Poppins', 'Regular', 'Sans-serif';
+            
+            @include md {
+                grid-template-columns: 50% 50%;
+
+            }
+        }
+        #ticket{
+            grid-area: ticket;
+        }
+        #location{
+            grid-area: location;
         }
     }
 }
