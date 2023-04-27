@@ -817,6 +817,86 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/The philadelphia flower show\/The philadelphia flower show\/Assets.xcassets\/AccentColor.colorset\/Contents.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower show\/Assets.xcassets\/AccentColor.colorset\/Contents-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/The philadelphia flower show\/The philadelphia flower show\/Assets.xcassets\/AppIcon.appiconset\/Contents.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower show\/Assets.xcassets\/AppIcon.appiconset\/Contents-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/The philadelphia flower show\/The philadelphia flower show\/Assets.xcassets\/Contents.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower show\/Assets.xcassets\/Contents-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/The philadelphia flower show\/The philadelphia flower show\/ContentView.swift" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower show\/ContentView.swift",
+      "oF" : 0
+    },
+    "\/The philadelphia flower show\/The philadelphia flower show\/Preview Content\/Preview Assets.xcassets\/Contents.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower show\/Preview Content\/Preview Assets.xcassets\/Contents-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/The philadelphia flower show\/The philadelphia flower show\/The_philadelphia_flower_show.entitlements" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower show\/The_philadelphia_flower_show.entitlements",
+      "oF" : 0
+    },
+    "\/The philadelphia flower show\/The philadelphia flower show\/The_philadelphia_flower_showApp.swift" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower show\/The_philadelphia_flower_showApp.swift",
+      "oF" : 0
+    },
+    "\/The philadelphia flower show\/The philadelphia flower showTests\/The_philadelphia_flower_showTests.swift" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower showTests\/The_philadelphia_flower_showTests.swift",
+      "oF" : 0
+    },
+    "\/The philadelphia flower show\/The philadelphia flower showUITests\/The_philadelphia_flower_showUITests.swift" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower showUITests\/The_philadelphia_flower_showUITests.swift",
+      "oF" : 0
+    },
+    "\/The philadelphia flower show\/The philadelphia flower showUITests\/The_philadelphia_flower_showUITestsLaunchTests.swift" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/The philadelphia flower show\/The philadelphia flower showUITests\/The_philadelphia_flower_showUITestsLaunchTests.swift",
+      "oF" : 0
     }
   },
   "hooks" : [

@@ -416,7 +416,7 @@ footer > div button {
   color: #2E3949;
 }
 footer > div ul li a {
-  grid-template-columns: repeat(4, lfr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* =============
