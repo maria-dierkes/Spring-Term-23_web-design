@@ -2,11 +2,14 @@
     Footer
 ============= */
 footer{
+    background-color: #2E3949;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
 
     >div{
         grid-area: footer;
+        font-family: 'Poppins', 'Regular', 'Sans-serif';
+        color: #A14F4C;
     }
 }

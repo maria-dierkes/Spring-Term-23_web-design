@@ -327,17 +327,16 @@ template {
 /* =============
     Base
 ============= */
-.header-footer-grid {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header-footer .";
-}
-.header-footer-grid > div {
-  grid-area: header-footer;
+.resize-img {
+  width: 100%;
 }
 
-.large-images {
-  width: 100%;
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
 }
 
 /* =============
@@ -370,39 +369,47 @@ textarea {
 /* =============
     Header
 ============= */
-header {
+header #logo {
   background-color: #2E3949;
   display: grid;
-  grid-template-columns: 3px 150px;
-  grid-template-areas: ". header .";
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". logo .";
 }
-header .heading {
-  font-family: "Poppins", sans-serif, "Regular";
+header #logo > div {
+  grid-area: logo;
+  display: grid;
+  grid-template-columns: 25% auto;
   color: #A14F4C;
+  font-family: "Poppins", "Regular", "Sans-serif";
 }
-header .logo {
-  column-width: 16px;
+header #search {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
 }
-header > div {
-  grid-area: header;
-  columns: 2;
+header #search > div {
+  grid-area: search;
 }
-
-section.headersearch {
-  color: #A14F4C;
-  grid-template-columns: 3px 150px auto;
+header #search > div form input {
+  font-family: "Poppins", "Regular", "Sans-serif";
+}
+header #search > div form button {
+  background-color: #A14F4C;
 }
 
 /* =============
     Footer
 ============= */
 footer {
+  background-color: #2E3949;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
 }
 footer > div {
   grid-area: footer;
+  font-family: "Poppins", "Regular", "Sans-serif";
+  color: #A14F4C;
 }
 
 /* =============
@@ -417,77 +424,66 @@ footer > div {
   grid-area: heroes;
 }
 
-/*----- photos -----*/
-#photos {
+/* =============
+    Events
+============= */
+#events .sub-event {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". heroes .";
+  grid-template-areas: ". events .";
+  background-color: #D8DDE2;
 }
-#photos > div {
-  grid-area: heroes;
+#events .sub-event > div {
+  grid-area: events;
+  display: grid;
+  grid-template-columns: 50% auto;
+  font-family: "Poppins", "Regular", "Sans-serif";
+}
+#events .sub-event > div button {
+  background-color: #A14F4C;
+  color: #2E3949;
 }
 
-#hero-2 {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". heroes .";
-}
-#hero-2 > div {
-  grid-area: heroes;
-}
-
-#hero-3 {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". heroes .";
-}
-#hero-3 > div {
-  grid-area: heroes;
-}
-
-#hero-4 {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". heroes .";
-}
-#hero-4 > div {
-  grid-area: heroes;
+/* =============
+    photos
+============= */
+#photos section > div img {
+  width: 100%;
 }
 
 /* =============
     Explore
 ============= */
 #explore {
-  display: grid;
-  grid-template-columns: 16px;
-  grid-template-areas: ". explore .";
-  columns: 2;
+  background-color: #D8DDE2;
 }
-#explore > div {
-  grid-area: explore;
+#explore ul li img {
+  width: 100%;
+}
+#explore ul li section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". explore-content .";
+}
+#explore ul li section > div {
+  grid-area: explore-content;
+  font-family: "Poppins", "Regular", "Sans-serif";
+}
+#explore ul li section > div button {
+  background-color: #A14F4C;
+  color: #2E3949;
 }
 
 /* =============
     Details
 ============= */
-#details {
+#details aside {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". details .";
-  columns: 2;
+  background-color: #B05D5A;
 }
-#details > div {
+#details aside > div {
   grid-area: details;
-}
-
-/* =============
-    Events
-============= */
-#events {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". events .";
-}
-#events > div {
-  grid-area: events;
+  font-family: "Poppins", "Regular", "Sans-serif";
 }

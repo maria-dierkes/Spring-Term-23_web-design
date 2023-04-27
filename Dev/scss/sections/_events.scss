@@ -3,11 +3,21 @@
 ============= */
 
 #events{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". events .";
-
-    >div{
-        grid-area: events;
-}
+    .sub-event{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". events .";
+        background-color: #D8DDE2;
+        >div{
+            grid-area: events;
+            display: grid;
+            grid-template-columns: 50% auto;
+            font-family: 'Poppins', 'Regular', 'Sans-serif';
+            button{
+                background-color: #A14F4C;
+                color: #2E3949; 
+            }
+            
+        }
+    }
 }

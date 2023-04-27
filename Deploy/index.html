@@ -15,82 +15,117 @@
 
     <!--Header-->
     <header>
-    <div class="logo">
-        <img src="img/global/logo.svg" alt="company logo">
-            <h1 class="heading"> The<br/>Philadelphia<br/>Flower Show</h1>
-        
-    </div>
+        <section id="logo">
+            <div>
+                <img src="img/global/logo.svg" alt="company logo">
+                <h1 class="heading"> The<br/>Philadelphia<br/>Flower Show</h1>
+            </div>
+        </section>
+        <section id="search">
+            <div>
+                <form action="#">
+                    <input type="search" placeholder="Explore More Events"></input>
+                    <button>
+                        <img src="img/global/search.svg" alt="search">
+                    </button>
+                </form>
+            </div>
+        </section>
     </header>
     
-    <section>
-        <nav class="headersearch">
-            <input action="#" placeholder="Explore More Events"></input>
-            <button><img src="img/global/search.svg" alt="search"></button>
-        </nav>
-    </section>
+    
     
 
     <!--Hero image-->
     <section id="hero">
         <div>
-        <img src="img/heroes/hero.jpg" alt="Garden of Flowers" class="large-images">
+        <img src="img/heroes/hero.jpg" alt="Garden of Flowers" class="resize-img">
         </div>
     </section>
     <!--Details-->
         <section id="details"> 
-            <div>
-            <h1>Buy a ticket now!</h1>
-            <p>For more information, click here</p>
-            <a href="#">Details</a>
-            <img src="img/global/arrow.svg" alt="arrow icon">
-        
-            <p> <b>Location:</b> Philadelphia, PA, USA</p>
-            <p> <b>Price:</b> $50</p>
-            <a href="#">Details</a>
-            <img src="img/global/arrow.svg" alt="arrow icon">
-            </div>
+            <aside>
+                <div>
+                    <h1>Buy a ticket now!</h1>
+                    <p>For more information, click here</p>
+                    <a href="#">Details</a>
+                    <img src="img/global/arrow.svg" alt="arrow icon">
+                </div>
+            </aside>    
+            <aside>
+                <div>
+                    <p> <b>Location:</b> Philadelphia, PA, USA</p>
+                    <p> <b>Price:</b> $50</p>
+                    <a href="#">Details</a>
+                    <img src="img/global/arrow.svg" alt="arrow icon">
+                </div>
+            </aside>
+            
         </section>
     <!--Events-->
-            <section id="events"> 
-                <div>
-                <h1>Planning your next visit?</h1>
-                <button><b>Start Here</b></button>
-                <img src="img/icons/icon.jpg" alt="Flower1">
+            <section id="events">
+                <section class="sub-event"> 
+                    <div>
+                        <section>
+                            <h1>Planning your next visit?</h1>
+                            <button><b>Start Here</b></button> 
+                        </section>
+                        <aside>
+                            <img src="img/icons/icon.jpg" alt="Flower1"> 
+                        </aside>
+                    </div>
+                </section>
             
-                <h1>Want to start a garden?</h1>
-                <button><b>Start Here</b></button>
-                <img src="img/icons/icon-2.jpg" alt="Flower2">
-                </div>
+                <section class="sub-event">
+                    <div>
+                        <section>
+                            <h1>Want to start a garden?</h1>
+                            <button><b>Start Here</b></button>   
+                        </section>
+                        <aside>
+                            <img src="img/icons/icon-2.jpg" alt="Flower2">
+                        </aside>
+                    </div>
+                </section>
             </section>
-    <!--Footer-->
-                <section id="hero-2">
-                    <div>
-                    <img src="img/heroes/hero-2.jpg" alt="big pink purple flowers" class="large-images">
-                    </div>  
+    <!--photos-->
+                <section id="photos">
+                    <section>
+                        <div>
+                        <img src="img/heroes/hero-2.jpg" alt="big pink purple flowers" class="resize-img">
+                        </div>  
+                    </section>
+                    <section>
+                        <div>
+                        <img src="img/heroes/hero-3.jpg" alt="purple garden" class="resize-img">
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                        <img src="img/heroes/hero-4.jpg" alt="green plant" class="resize-img">
+                        </div>
+                    </section>
                 </section>
-                <section id="hero-3">
-                    <div>
-                    <img src="img/heroes/hero-3.jpg" alt="purple garden" class="large-images">
-                    </div>
-                </section>
-                <section id="hero-4">
-                    <div>
-                    <img src="img/heroes/hero-4.jpg" alt="green plant" class="large-images">
-                    </div>
-                </section>
+                
     <!--Details-->
                     <section id="details"> 
-                        <div>
-                        <h1>Buy a ticket now!</h1>
-                        <p>For more information, click here</p>
-                        <a href="#">Details</a>
-                        <img src="img/global/arrow.svg" alt="arrow icon">
-                    
-                        <p> <b>Location:</b> Philadelphia, PA, USA</p>
-                        <p> <b>Price:</b> $50</p>
-                        <a href="#">Details</a>
-                        <img src="img/global/arrow.svg" alt="arrow icon">
-                        </div>
+                        <aside>
+                            <div>
+                                <h1>Buy a ticket now!</h1>
+                                <p>For more information, click here</p>
+                                <a href="#">Details</a>
+                                <img src="img/global/arrow.svg" alt="arrow icon">
+                            </div>
+                        </aside>    
+                        <aside>
+                            <div>
+                                <p> <b>Location:</b> Philadelphia, PA, USA</p>
+                                <p> <b>Price:</b> $50</p>
+                                <a href="#">Details</a>
+                                <img src="img/global/arrow.svg" alt="arrow icon">
+                            </div>
+                        </aside>
+                        
                     </section>
     <!--Exlore Section-->
                         <section id="explore">
@@ -99,33 +134,58 @@
                             <ul>
                                 <li>
                                     <img src="img/feature/drexel.jpg" alt="The Gateway Garden">
-                                    <h2>The Gateway Garden</h2>
-                                    <p>The Gateway Garden features an amazing variety of horticultural elements with plant material that was chosen to represent the...</p>
-                                    <button><b>Read More</b></button>
+                                    <section>
+                                        <div>
+                                            <h2>The Gateway Garden</h2>
+                                            <p>The Gateway Garden features an amazing variety of horticultural elements with plant material that was chosen to represent the...</p>
+                                            <button><b>Read More</b></button> 
+                                        </div>
+                                    </section>
                                 </li>
+                        
                                 <li>
                                     <img src="img/feature/makers.jpg" alt="Meet the makers">
-                                    <h2>Meet the Makers</h2>
-                                    <p>Meet owners and brewers of local breweries and taste a selection of your favorite beer and cider.</p>
-                                    <button><b>Read More</b></button>
+                                    <section>
+                                        <div>
+                                            <h2>Meet the Makers</h2>
+                                            <p>Meet owners and brewers of local breweries and taste a selection of your favorite beer and cider.</p>
+                                            <button><b>Read More</b></button>
+                                        </div>
+                                    </section>
+                                   
                                 </li>
+                        
                                 <li>
                                     <img src="img/feature/compost.jpg" alt="Composting">
-                                    <h2>Composting: Tips and Tricks</h2>
-                                    <p>Turn your household garbage and yard waste into soil and fertilizer for your garden and houseplants. Learn different techniques here.</p>
-                                    <button><b>Read More</b></button>
+                                    <section>
+                                        <div>
+                                            <h2>Composting: Tips and Tricks</h2>
+                                            <p>Turn your household garbage and yard waste into soil and fertilizer for your garden and houseplants. Learn different techniques here.</p>
+                                            <button><b>Read More</b></button>
+                                        </div>
+                                    </section>
                                 </li>
+                        
                                 <li>
                                     <img src="img/feature/expert.jpg" alt="Beer picture">
-                                    <h2>Ask An Expert</h2>
-                                    <p>Need help with gardening? Do not know what plant you have During this session, ask all your questions and get some answers.</p>
-                                    <button><b>Read More</b></button>
+                                    <section>
+                                        <div>
+                                            <h2>Ask An Expert</h2>
+                                            <p>Need help with gardening? Do not know what plant you have During this session, ask all your questions and get some answers.</p>
+                                            <button><b>Read More</b></button>
+                                        </div>
+                                    </section>
                                 </li>
+                                
                                 <li>
                                     <img src="img/feature/bulbs.jpg" alt="Tulips">
-                                    <h2>Summer Bulb Giveaway</h2>
-                                    <p>Complimentary gladiola bulbs for your summer garden. Supplies are limit, so these will be available on a first come, first serve basis.</p>
-                                    <button><b>Read More</b></button>
+                                    <section>
+                                        <div>
+                                            <h2>Summer Bulb Giveaway</h2>
+                                            <p>Complimentary gladiola bulbs for your summer garden. Supplies are limit, so these will be available on a first come, first serve basis.</p>
+                                            <button><b>Read More</b></button>
+                                        </div>   
+                                    </section>
                                 </li>
                             </ul>
                             </div>  

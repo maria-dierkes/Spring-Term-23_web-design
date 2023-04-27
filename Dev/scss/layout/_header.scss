@@ -1,25 +1,35 @@
 /* =============
     Header
 ============= */
+
 header{
+    #logo{
         background-color: #2E3949;
         display: grid;
-        grid-template-columns: 3px 150px;
-        grid-template-areas: ". header .";
-
-    .heading {
-        font-family: 'Poppins', sans-serif, 'Regular';
-        color: #A14F4C;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". logo .";
+        >div{
+            grid-area: logo;
+            display: grid;
+            grid-template-columns: 25% auto;
+            color: #A14F4C;
+            font-family: 'Poppins', 'Regular', 'Sans-serif';
+        }
     }
-    .logo{
-        column-width: 16px;
+    #search{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". search .";
+        >div{
+            grid-area: search;
+            form{
+                input{
+                font-family: 'Poppins', 'Regular', 'Sans-serif';
+                }
+                button{
+                    background-color: #A14F4C;
+                }
+            }  
+        } 
     }
-    >div{
-        grid-area: header;
-        columns: 2;
-    }
-}
-section.headersearch{
-    color: #A14F4C;
-    grid-template-columns: 3px 150px auto;
 }

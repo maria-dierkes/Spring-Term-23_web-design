@@ -2,21 +2,36 @@
     Base
 ============= */
 
-body{
-    
-}
-
-.header-footer-grid{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header-footer .";
-
-    >div{
-        grid-area: header-footer;
-    }
-}
-
-
-.large-images{
+.resize-img{
     width: 100%;
+
 }
+
+ul{
+ padding: 0;
+ margin: 0;
+ li{
+    list-style: none;
+ }
+ 
+}
+
+
+// body{
+
+// }
+
+// .header-footer-grid{
+//     display: grid;
+//     grid-template-columns: 16px auto 16px;
+//     grid-template-areas: ". header-footer .";
+
+//     >div{
+//         grid-area: header-footer;
+//     }
+// }
+
+
+// .large-images{
+//     width: 100%;
+// }
