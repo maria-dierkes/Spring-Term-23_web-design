@@ -378,7 +378,7 @@ header #logo {
 header #logo > div {
   grid-area: logo;
   display: grid;
-  grid-template-columns: 25% auto;
+  grid-template-columns: 22% auto;
   color: #A14F4C;
   font-family: "Poppins", "Regular", "Sans-serif";
 }
@@ -410,6 +410,13 @@ footer > div {
   grid-area: footer;
   font-family: "Poppins", "Regular", "Sans-serif";
   color: #A14F4C;
+}
+footer > div button {
+  background-color: #A14F4C;
+  color: #2E3949;
+}
+footer > div ul li a {
+  grid-template-columns: repeat(4, lfr);
 }
 
 /* =============
@@ -482,6 +489,11 @@ footer > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". details .";
   background-color: #B05D5A;
+}
+@media (min-width: 768px) {
+  #details aside {
+    grid-template-columns: 10% auto 10%;
+  }
 }
 #details aside > div {
   grid-area: details;

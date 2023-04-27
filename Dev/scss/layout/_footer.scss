@@ -1,6 +1,7 @@
 /* =============
     Footer
 ============= */
+
 footer{
     background-color: #2E3949;
     display: grid;
@@ -11,5 +12,16 @@ footer{
         grid-area: footer;
         font-family: 'Poppins', 'Regular', 'Sans-serif';
         color: #A14F4C;
+        button{
+            background-color:#A14F4C;
+            color: #2E3949;
+        }
+        ul{
+            li{
+                a{
+                    grid-template-columns: repeat(4, lfr);
+                }
+            }            
+        }
     }
 }

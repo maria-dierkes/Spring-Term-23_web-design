@@ -8,6 +8,10 @@
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". details .";
         background-color: #B05D5A;
+
+        @include md{
+            grid-template-columns: 10% auto 10%;
+        }
         >div{
             grid-area: details;
             font-family: 'Poppins', 'Regular', 'Sans-serif';
