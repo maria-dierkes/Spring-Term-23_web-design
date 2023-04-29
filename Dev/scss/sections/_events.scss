@@ -8,6 +8,14 @@
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". events .";
         background-color: #D8DDE2;
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat (2, 1fr);
+            grid-template-columns: 50% 50%;
+            grid-template-columns: 50% auto;
+
+        }
         >div{
             grid-area: events;
             display: grid;
@@ -18,13 +26,6 @@
                 color: #2E3949; 
             }
             
-            @include md{
-                display: grid;
-                grid-template-columns: repeat (2, 1fr);
-                grid-template-columns: 50% 50%;
-                grid-template-columns: 50% auto;
-
-            }
         }
 
         

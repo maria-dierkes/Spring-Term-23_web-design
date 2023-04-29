@@ -29,8 +29,11 @@
             }
         
                 li{
-                    list-style: none;
-                    text-align: center;
+                    img{
+                        list-style: none;
+                        text-align: center;   
+                    }
+                    
                 }
                 #p1{
                     grid-area: p1;
