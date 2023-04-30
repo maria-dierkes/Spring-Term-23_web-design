@@ -392,6 +392,7 @@ header #search > div {
 }
 header #search > div form input {
   font-family: "Poppins", "Regular", "Sans-serif";
+  width: 80%;
 }
 header #search > div form button {
   background-color: #A14F4C;
@@ -461,33 +462,29 @@ footer > div #social {
     Events
 ============= */
 #events {
-  background-color: aquamarine;
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 3px auto 3px;
   grid-template-areas: ". events .";
 }
 #events > div {
   grid-area: events;
-  margin: 0;
-  padding: 0;
+  gap: 16px;
+  padding: 26px;
   font-family: "Poppins", "Regular", "Sans-serif";
 }
-#events > div ul {
-  margin: 16px;
-}
-#events > div ul button {
-  background-color: #A14F4C;
-}
 #events > div ul #plan {
-  grid-template-columns: 50 auto;
   display: grid;
   padding: 16px;
 }
 #events > div ul #garden {
+  display: grid;
   padding: 16px;
 }
 #events > div ul li {
   background-color: #D8DDE2;
+}
+#events > div ul li button {
+  background-color: #A14F4C;
 }
 @media (min-width: 768px) {
   #events > div {
@@ -501,7 +498,7 @@ footer > div #social {
   #events > div {
     display: grid;
     grid-template-columns: repeat 2, 1fr;
-    grid-template-areas: image;
+    grid-template-areas: events;
     margin-bottom: 16px;
     margin-top: 26px;
   }
@@ -510,46 +507,26 @@ footer > div #social {
 /* =============
     photos
 ============= */
-#photos {
-  display: grid;
-  grid-template-areas: ". events .";
-}
 #photos > div ul {
   margin: 0;
-  padding: 16px;
+  padding: 26px;
+}
+#photos > div ul #p1 {
+  grid-template-columns: 80 auto;
+  display: grid;
+  grid-area: p1;
+}
+#photos > div ul #p2 {
+  grid-area: p2;
+}
+#photos > div ul #p3 {
+  grid-area: p3;
 }
 @media (min-width: 768px) {
-  #photos > div {
+  #photos > div ul {
     display: grid;
-    grid-template-columns: repeat 3, 1fr;
-    grid-template-areas: "p1 p1 p2" ". p3 .";
-  }
-}
-@media (min-width: 1024px) {
-  #photos > div {
-    display: grid;
-    grid-template-columns: 40% auto;
-  }
-}
-@media (min-width: 1200px) {
-  #photos > div {
-    display: grid;
-    grid-template-columns: 40% auto;
-  }
-}
-@media (min-width: 768px) {
-  #photos > div #p1 {
-    grid-area: p1;
-  }
-}
-@media (min-width: 768px) {
-  #photos > div #p2 {
-    grid-area: p2;
-  }
-}
-@media (min-width: 768px) {
-  #photos > div #p3 {
-    grid-area: p3;
+    grid-template-columns: repeat 4, 1fr;
+    grid-template-areas: "p1 p1 p2 p2" "p3 p3 p3 p3";
   }
 }
 
@@ -558,8 +535,12 @@ footer > div #social {
 ============= */
 #explore > div {
   grid-area: explore;
+  padding: 26px;
   margin-bottom: 24px;
   font-family: "Poppins", "Regular", "Sans-serif";
+}
+#explore > div img {
+  width: 100%;
 }
 #explore > div button {
   background-color: #A14F4C;
@@ -570,9 +551,6 @@ footer > div #social {
   text-align: center;
   padding: 16px;
   margin-top: 24px;
-}
-#explore ul li img {
-  width: 100;
 }
 @media (min-width: 768px) {
   #explore ul {

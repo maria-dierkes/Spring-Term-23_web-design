@@ -3,41 +3,34 @@
 ============= */
 
 #events{
-         background-color: aquamarine;
          display: grid;
-         grid-template-columns: 16px auto 16px;
+         grid-template-columns: 3px auto 3px;
          grid-template-areas: ". events ."; 
+
 
         >div{
             grid-area: events;
-
-            margin: 0;
-            padding: 0;
+            gap: 16px;
+            padding: 26px;
             font-family: 'Poppins', 'Regular', 'Sans-serif';
 
             ul{
-
-                margin: 16px;
-
-                button{
-                    background-color: #A14F4C;
-                }
                 #plan{
-                    grid-template-columns: 50 auto;
                     display: grid;
-                    padding: 16px; 
+                    padding: 16px;
                 }
 
                 #garden{
+                    display: grid;
                     padding: 16px;
                     
                 }
+
                 li{
                     background-color: #D8DDE2;
-                    
-                }
-
-                
+                    button{background-color: #A14F4C;
+                    }
+                } 
             }
             @include md {
                 display: grid;
@@ -49,7 +42,7 @@
             @include md{
                 display: grid;
                 grid-template-columns: repeat (2, 1fr);
-                grid-template-areas: image;
+                grid-template-areas: events;
                 margin-bottom: 16px;
                 margin-top: 26px;
             }
