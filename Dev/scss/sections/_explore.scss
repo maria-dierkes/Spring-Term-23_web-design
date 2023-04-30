@@ -3,26 +3,69 @@
 ============= */
 
 #explore{
-    background-color: #D8DDE2;
+
+    >div{
+        grid-area: explore;
+        margin-bottom: 24px;
+        font-family: 'Poppins', 'Regular', 'Sans-serif';
+        button{
+            background-color: #A14F4C;
+            color: #2E3949;
+        } 
+    }
     
     ul{
-        
-        li{
+        li{ 
             img{
-                width: 100%;
+                width: 100;
             }
-            section{
-                display: grid;
-                grid-template-columns: 16px auto 16px;
-                grid-template-areas: ". explore-content .";
-                >div{
-                    grid-area: explore-content;
-                    font-family: 'Poppins', 'Regular', 'Sans-serif';
-                   button{
-                    background-color: #A14F4C;
-                    color: #2E3949;
-                   } 
-                }
+            background-color: #D8DDE2;
+            text-align: center;
+            padding: 16px; 
+            margin-top: 24px;
+        }
+
+        @include md{
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat (4, 1fr);
+            grid-template-areas: 
+            "e1 e1 e2 e2"
+            "e3 e3 e4 e4"
+            ". e5 e5 .";
+        }
+        @include lg{
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat (6, 1fr);
+            grid-template-areas: 
+            "e1 e1 e2 e2 e3 e3"
+            ". e4 e4 e5 e5 .";
+        }
+
+        #e1{
+            @include md{
+                grid-area: e1;
+            }
+        }
+        #e2{
+            @include md{
+                grid-area: e2;
+            }
+        }
+        #e3{
+            @include md{
+                grid-area: e3;
+            }
+        }
+        #e4{
+            @include md{
+                grid-area: e4;
+            }
+        }
+        #e5{
+            @include md{
+                grid-area: e5;
             }
         }
     }

@@ -16,9 +16,38 @@ footer{
             background-color:#A14F4C;
             color: #2E3949;
         }
-        ul{
-            li{
-            }
-        }  
-    }
+        
+        #address{
+            grid-template-columns: 70% auto;
+            padding: 16px;
+            grid-area: address;
+        }
+        #subscribe{
+            grid-template-columns: 70% auto;
+            padding: 16px;
+            grid-area: subscribe;
+
+        }
+        #social{
+            grid-template-columns: 70% auto;
+            padding: 16px;
+            grid-area: social;
+        }
+
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat (2, 1fr);
+            grid-template-areas:
+            "address subscribe"
+            " . social";
+        }
+        @include lg{
+                display: grid;
+                grid-template-columns: repeat (3, 1fr);
+                grid-template-areas:
+                "address subscribe social";
+
+        }
+    }  
 }

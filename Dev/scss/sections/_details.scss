@@ -3,26 +3,22 @@
 ============= */
 
 #details{
-    aside{
-
         >div{
-
-            margin: 0;
-            padding: 0;
-            background-color: #B05D5A;
-            font-family: 'Poppins', 'Regular', 'Sans-serif';
-
-            display: grid;
-            grid-template-columns: 70% auto;
-
             ul{
-            li{
+                margin: 0;
+                padding: 0;
+                background-color: #B05D5A;
+                font-family: 'Poppins', 'Regular', 'Sans-serif';
+
+                // grid-template-columns: 70% auto;
+                // display: grid;
+        
                 #ticket{
-                    display: grid; 
-                    padding: 16px;
-                    background-color: #A14F4C;
+                    grid-template-columns: 70 auto;
                     display: grid;
-                    grid-template-columns: 70% auto;  
+        
+                    background-color: #A14F4C; 
+                    padding: 16px; 
                 }
 
                 #location{
@@ -30,22 +26,21 @@
                     padding: 16px;
                 }
 
-                @include md{
+                
+            }   
+            @include md {
                     display: grid;
                     grid-template-columns: 40% auto;
                 }
 
-                @include lg{
+                @include lg {
                     display: grid;
-                    grid-template-columns: 50% auto;
+                    grid-template-columns: 40% auto;
                 }
 
-                @include xl{
+                @include xl {
                     display: grid;
-                    grid-template-columns: 70% auto;    
-                }
-            }    
-            }  
+                    grid-template-columns: 40% auto;    
+                } 
         }
-    }
-}   
+}
