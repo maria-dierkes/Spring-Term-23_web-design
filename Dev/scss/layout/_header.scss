@@ -3,19 +3,31 @@
 ============= */
 
 header{
+
     #logo{
         background-color: #2E3949;
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". logo .";
+
         >div{
             grid-area: logo;
             display: grid;
             grid-template-columns: 80px auto;
+            
             color: #A14F4C;
             font-family: 'Poppins', 'Regular', 'Sans-serif';
+
+            button{
+                grid-area: logo;
+                grid-template-columns: 90px auto;
+                border: none;
+                color:#A14F4C;
+                background-color: #2E3949;
+            } 
         }
     }
+
     #search{
         display: grid;
         grid-template-columns: 16px auto 16px;
@@ -29,7 +41,7 @@ header{
                 font-family: 'Poppins', 'Regular', 'Sans-serif';
                 color: (var(--stormblue));
                 font-size:x-large;
-                width: 80%;
+                width: 75%;
                 border: none;
                 border: 1px solid (var(--stormblue));
                 padding: 16px 24px;

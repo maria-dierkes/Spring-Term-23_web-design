@@ -387,6 +387,13 @@ header #logo > div {
   color: #A14F4C;
   font-family: "Poppins", "Regular", "Sans-serif";
 }
+header #logo > div button {
+  grid-area: logo;
+  grid-template-columns: 90px auto;
+  border: none;
+  color: #A14F4C;
+  background-color: #2E3949;
+}
 header #search {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -399,7 +406,7 @@ header #search > div form input {
   font-family: "Poppins", "Regular", "Sans-serif";
   color: var(--stormblue);
   font-size: x-large;
-  width: 80%;
+  width: 75%;
   border: none;
   border: 1px solid var(--stormblue);
   padding: 16px 24px;
@@ -422,7 +429,7 @@ footer {
 footer > div {
   grid-area: footer;
   font-family: "Poppins", "Regular", "Sans-serif";
-  color: #A14F4C;
+  color: var(--stormblue);
 }
 footer > div input {
   border: none;
@@ -590,6 +597,11 @@ footer > div #social {
     gap: 16px;
     grid-template-columns: repeat 6, 1fr;
     grid-template-areas: "e1 e1 e2 e2 e3 e3" ". e4 e4 e5 e5 .";
+  }
+}
+@media (min-width: 1200px) {
+  #explore ul {
+    grid-template-columns: auto 1200px auto;
   }
 }
 @media (min-width: 768px) {
