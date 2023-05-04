@@ -20,16 +20,25 @@ header{
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". search .";
+
         >div{
             grid-area: search;
+
             form{
                 input{
                 font-family: 'Poppins', 'Regular', 'Sans-serif';
+                color: (var(--stormblue));
+                font-size:x-large;
                 width: 80%;
+                border: none;
+                border: 1px solid (var(--stormblue));
+                padding: 16px 24px;
                 }
+
                 button{
                     background-color: #A14F4C;
                     border: none;
+                    padding: 16px 24px;
                 }
             }  
         } 

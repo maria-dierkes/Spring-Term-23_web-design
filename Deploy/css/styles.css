@@ -17,6 +17,7 @@ html {
   --flower: #A14F4C;
   --iceblue: #2E3949;
   --ice: #D8DDE2;
+  --stormblue: #8E9CAA;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -396,11 +397,17 @@ header #search > div {
 }
 header #search > div form input {
   font-family: "Poppins", "Regular", "Sans-serif";
+  color: var(--stormblue);
+  font-size: x-large;
   width: 80%;
+  border: none;
+  border: 1px solid var(--stormblue);
+  padding: 16px 24px;
 }
 header #search > div form button {
   background-color: #A14F4C;
   border: none;
+  padding: 16px 24px;
 }
 
 /* =============
@@ -417,10 +424,17 @@ footer > div {
   font-family: "Poppins", "Regular", "Sans-serif";
   color: #A14F4C;
 }
+footer > div input {
+  border: none;
+  background-color: var(--stormblue);
+  color: #2E3949;
+  padding: 16px 40px;
+}
 footer > div button {
   background-color: #A14F4C;
   color: #2E3949;
   border: none;
+  padding: 16px 24px;
 }
 footer > div #address {
   grid-template-columns: 70% auto;
@@ -492,6 +506,7 @@ footer > div #social {
 #events > div ul li button {
   background-color: #A14F4C;
   border: none;
+  padding: 16px 24px;
 }
 @media (min-width: 768px) {
   #events > div {
@@ -553,6 +568,7 @@ footer > div #social {
   background-color: #A14F4C;
   color: #2E3949;
   border: none;
+  padding: 16px 24px;
 }
 #explore ul li {
   background-color: #D8DDE2;

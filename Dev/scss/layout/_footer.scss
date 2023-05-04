@@ -12,10 +12,17 @@ footer{
         grid-area: footer;
         font-family: 'Poppins', 'Regular', 'Sans-serif';
         color: #A14F4C;
+        input{
+            border: none;
+            background-color: var(--stormblue);
+            color:#2E3949;
+            padding: 16px 40px;
+        }
         button{
             background-color:#A14F4C;
             color: #2E3949;
             border: none;
+            padding: 16px 24px;
         }
         
         #address{
