@@ -16,7 +16,8 @@ footer{
             border: none;
             background-color: var(--stormblue);
             color:#2E3949;
-            padding: 16px 40px;
+            padding: 16px 24px;
+            width: 287px;
         }
         button{
             background-color:#A14F4C;
@@ -40,6 +41,10 @@ footer{
             grid-template-columns: 70% auto;
             padding: 16px;
             grid-area: social;
+            ul{
+                display: flex;
+                gap: 24px;
+            }
         }
 
 

@@ -387,9 +387,13 @@ header #logo > div {
   color: #A14F4C;
   font-family: "Poppins", "Regular", "Sans-serif";
 }
+header #logo > div ul {
+  margin: 0;
+  padding: 26px;
+  display: flex;
+  gap: 24px;
+}
 header #logo > div button {
-  grid-area: logo;
-  grid-template-columns: 90px auto;
   border: none;
   color: #A14F4C;
   background-color: #2E3949;
@@ -435,7 +439,8 @@ footer > div input {
   border: none;
   background-color: var(--stormblue);
   color: #2E3949;
-  padding: 16px 40px;
+  padding: 16px 24px;
+  width: 287px;
 }
 footer > div button {
   background-color: #A14F4C;
@@ -457,6 +462,10 @@ footer > div #social {
   grid-template-columns: 70% auto;
   padding: 16px;
   grid-area: social;
+}
+footer > div #social ul {
+  display: flex;
+  gap: 24px;
 }
 @media (min-width: 768px) {
   footer > div {
@@ -597,11 +606,6 @@ footer > div #social {
     gap: 16px;
     grid-template-columns: repeat 6, 1fr;
     grid-template-areas: "e1 e1 e2 e2 e3 e3" ". e4 e4 e5 e5 .";
-  }
-}
-@media (min-width: 1200px) {
-  #explore ul {
-    grid-template-columns: auto 1200px auto;
   }
 }
 @media (min-width: 768px) {

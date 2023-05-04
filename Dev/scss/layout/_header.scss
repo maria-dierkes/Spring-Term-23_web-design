@@ -14,19 +14,30 @@ header{
             grid-area: logo;
             display: grid;
             grid-template-columns: 80px auto;
-            
+
             color: #A14F4C;
             font-family: 'Poppins', 'Regular', 'Sans-serif';
 
+            ul{
+                margin: 0;
+                padding: 26px;
+                display: flex;
+                gap: 24px;
+                
+            }
+                
             button{
-                grid-area: logo;
-                grid-template-columns: 90px auto;
+                // grid-area: logo;
+                // grid-template-columns: 90px auto;
                 border: none;
                 color:#A14F4C;
                 background-color: #2E3949;
+
+
             } 
         }
     }
+
 
     #search{
         display: grid;
