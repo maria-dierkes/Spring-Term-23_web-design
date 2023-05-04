@@ -400,6 +400,7 @@ header #search > div form input {
 }
 header #search > div form button {
   background-color: #A14F4C;
+  border: none;
 }
 
 /* =============
@@ -419,6 +420,7 @@ footer > div {
 footer > div button {
   background-color: #A14F4C;
   color: #2E3949;
+  border: none;
 }
 footer > div #address {
   grid-template-columns: 70% auto;
@@ -489,6 +491,7 @@ footer > div #social {
 }
 #events > div ul li button {
   background-color: #A14F4C;
+  border: none;
 }
 @media (min-width: 768px) {
   #events > div {
@@ -549,6 +552,7 @@ footer > div #social {
 #explore > div button {
   background-color: #A14F4C;
   color: #2E3949;
+  border: none;
 }
 #explore ul li {
   background-color: #D8DDE2;
