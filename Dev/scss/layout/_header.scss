@@ -6,24 +6,28 @@ header{
 
     #logo{
         background-color: #2E3949;
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". logo .";
 
         >div{
-            grid-area: logo;
-            display: grid;
-            grid-template-columns: 80px auto;
-
             color: #A14F4C;
             font-family: 'Poppins', 'Regular', 'Sans-serif';
 
             ul{
+                display: flex;
                 margin: 0;
                 padding: 26px;
                 display: flex;
                 gap: 24px;
                 
+                #l1{
+                    background-color: #2E3949;
+                }
+                #l2{
+                    background-color: #2E3949;
+                }
+                #l3{
+                    margin-left: auto;
+                }
+
             }
                 
             button{
