@@ -3,6 +3,11 @@
 ============= */
 
 #explore{
+    @include xxl{
+            display: grid;
+            grid-template-columns: auto 1200px auto;
+            grid-template-areas: ". explore .";
+        }
 
     >div{
         grid-area: explore;
@@ -45,9 +50,6 @@
             "e1 e1 e2 e2 e3 e3"
             ". e4 e4 e5 e5 .";
         }   
-        @include xl{
-            
-        }
 
         #e1{
             @include md{

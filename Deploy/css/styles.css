@@ -430,6 +430,12 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
 }
+@media (min-width: 1440px) {
+  footer {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+  }
+}
 footer > div {
   grid-area: footer;
   font-family: "Poppins", "Regular", "Sans-serif";
@@ -502,6 +508,12 @@ footer > div #social ul {
   grid-template-columns: 3px auto 3px;
   grid-template-areas: ". events .";
 }
+@media (min-width: 1440px) {
+  #events {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+  }
+}
 #events > div {
   grid-area: events;
   gap: 16px;
@@ -571,6 +583,13 @@ footer > div #social ul {
 /* =============
     Explore
 ============= */
+@media (min-width: 1440px) {
+  #explore {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". explore .";
+  }
+}
 #explore > div {
   grid-area: explore;
   padding: 26px;

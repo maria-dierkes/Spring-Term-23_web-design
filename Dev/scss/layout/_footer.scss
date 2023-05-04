@@ -8,6 +8,11 @@ footer{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
 
+    @include xxl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+    }
+
     >div{
         grid-area: footer;
         font-family: 'Poppins', 'Regular', 'Sans-serif';
