@@ -11,8 +11,7 @@
 
     >div{
         grid-area: explore;
-        padding: 26px;
-        margin-bottom: 24px;
+       
         font-family: 'Poppins', 'Regular', 'Sans-serif';
         img{
             width: 100%;
@@ -29,8 +28,6 @@
         li{ 
             background-color: #D8DDE2;
             text-align: center;
-            padding: 16px; 
-            margin-top: 24px;
         }
 
         @include md{
