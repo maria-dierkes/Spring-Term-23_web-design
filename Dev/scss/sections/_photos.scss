@@ -4,32 +4,60 @@
 
 #photos{ 
      >div{ 
+        @include lg{
+                display: grid;
+                grid-template-columns: 16px auto 16px;
+                grid-template-areas: ". gallery .";
+        }
+
+        @include xxl{
+            grid-template-columns: auto 1440px auto;
+        }
         ul{
+
+            display: grid;
+
+            @include md{
+                grid-template-columns: 50% auto;
+
+            }
+
+            @include lg{
+                grid-area: gallery;
+            }
+
+            li{
             margin: 0;
             padding: 26px;
-        
-                #p1{
-                    grid-template-columns: 80 auto;
-                    display: grid;
-                    grid-area: p1;
-                }
 
-                #p2{
-                    grid-area: p2; 
-                }
-                
-
-                #p3{
-                    grid-area: p3; 
-                }
-                
-            @include md {
-                display: grid;
-                grid-template-columns: repeat (4, 1fr);
-                grid-template-areas: 
-                "p1 p1 p2 p2"
-                "p3 p3 p3 p3";
             }
+            
+            // margin: 0;
+            // padding: 26px;
+
+        
+            //     #p1{
+            //         grid-template-columns: 80 auto;
+            //         display: grid;
+            //         grid-area: p1;
+            //     }
+
+            //     #p2{
+            //         grid-area: p2; 
+            //     }
+                
+
+            //     #p3{
+            //         grid-area: p3; 
+            //     }
+                
+            // @include md {
+            //     display: grid;
+            //     grid-template-columns: repeat (4, 1fr);
+            //     grid-template-areas: 
+            //     "p1 p1 p1 p2"
+            //     "p3 p3 p3 p3";
+            // }
         }   
     } 
 }

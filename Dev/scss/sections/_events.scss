@@ -17,7 +17,7 @@
             grid-area: events;
             gap: 16px;
             padding: 26px;
-            font-family: 'Poppins', 'Regular', 'Sans-serif';
+            // font-family: 'Poppins', 'Regular', 'Sans-serif';
 
             ul{
                 #plan{
@@ -32,9 +32,9 @@
                 }
 
                 li{
-                    background-color: #D8DDE2;
+                    background-color: var(--ice);
                     button{
-                        background-color: #A14F4C;
+                        background-color: var(--flower);
                         border: none;
                         padding: 16px 24px;
                     }

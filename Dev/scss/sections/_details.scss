@@ -7,19 +7,19 @@
             ul{
                 margin: 0;
                 padding: 0;
-                background-color: #B05D5A;
-                font-family: 'Poppins', 'Regular', 'Sans-serif';
+                background-color: var(--lightflower);
+                // font-family: 'Poppins', 'Regular', 'Sans-serif';
         
                 #ticket{
                     grid-template-columns: 70 auto;
                     display: grid;
         
-                    background-color: #A14F4C; 
+                    background-color: var(--flower); 
                     padding: 16px; 
                 }
 
                 #location{
-                    background-color: #B05D5A;
+                    background-color: var(--lightflower);
                     padding: 16px;
                 }
 

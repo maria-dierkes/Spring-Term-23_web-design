@@ -5,11 +5,11 @@
 header{
 
     #logo{
-        background-color: #2E3949;
+        background-color: var(--iceblue);
 
         >div{
-            color: #A14F4C;
-            font-family: 'Poppins', 'Regular', 'Sans-serif';
+            color: var(--flower);
+            // font-family: 'Poppins', 'Regular', 'Sans-serif';
 
             ul{
                 display: flex;
@@ -19,10 +19,10 @@ header{
                 gap: 24px;
                 
                 #l1{
-                    background-color: #2E3949;
+                    background-color: var(--iceblue);
                 }
                 #l2{
-                    background-color: #2E3949;
+                    background-color: var(--iceblue);
                 }
                 #l3{
                     margin-left: auto;
@@ -34,8 +34,8 @@ header{
                 // grid-area: logo;
                 // grid-template-columns: 90px auto;
                 border: none;
-                color:#A14F4C;
-                background-color: #2E3949;
+                color: var(--flower);
+                background-color: var(--iceblue);
 
 
             } 
@@ -53,7 +53,7 @@ header{
 
             form{
                 input{
-                font-family: 'Poppins', 'Regular', 'Sans-serif';
+                // font-family: 'Poppins', 'Regular', 'Sans-serif';
                 color: (var(--stormblue));
                 font-size:x-large;
                 width: 75%;
@@ -63,7 +63,7 @@ header{
                 }
 
                 button{
-                    background-color: #A14F4C;
+                    background-color: (var(--flower));
                     border: none;
                     padding: 16px 24px;
                 }
