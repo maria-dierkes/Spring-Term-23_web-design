@@ -406,20 +406,30 @@ header #search {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
 }
+@media (min-width: 1440px) {
+  header #search {
+    Display: grid;
+    grid-template-columns: auto 1440px auto;
+  }
+}
 header #search > div {
   grid-area: search;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  align-content: center;
 }
 header #search > div form input {
   color: var(--stormblue);
   font-size: x-large;
-  width: 75%;
+  width: 70%;
   border: none;
-  border: 1px solid var(--stormblue);
+  border-bottom: 1px solid var(--stormblue);
   padding: 16px 24px;
 }
 header #search > div form button {
   background-color: var(--flower);
   border: none;
+  border-radius: 5%;
   padding: 16px 24px;
 }
 
@@ -519,6 +529,9 @@ footer > div #social ul {
   grid-area: events;
   gap: 16px;
   padding: 26px;
+}
+#events > div img {
+  border-radius: 50%;
 }
 #events > div ul #plan {
   display: grid;
@@ -677,6 +690,21 @@ footer > div #social ul {
 #details > div ul #location {
   background-color: var(--lightflower);
   padding: 16px;
+}
+#details > div ul a:link,
+#details > div ul a:visited {
+  color: var(--ice);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 16px;
+  background-color: var(--iceblue);
+  display: inline-block;
+  transition: 0.25s;
+}
+#details > div ul a:hover,
+#details > div ul a:active {
+  background-color: var(--stormblue);
+  color: var(--flower);
 }
 @media (min-width: 768px) {
   #details > div {

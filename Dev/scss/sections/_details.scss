@@ -23,6 +23,24 @@
                     padding: 16px;
                 }
 
+            a:link,
+            a:visited {
+
+                color: (var(--ice));
+                text-decoration: none;
+                font-size: 25px;
+                padding: 16px;
+                background-color: (var(--iceblue));
+                display: inline-block;
+                transition: 0.25s;
+            }
+
+            a:hover,
+            a:active {
+                background-color: (var(--stormblue));
+                color: (var(--flower))
+            }
+
                 
             }   
             @include md {

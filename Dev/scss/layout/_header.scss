@@ -48,24 +48,34 @@ header{
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". search .";
 
+        @include xxl{
+            Display: grid;
+            grid-template-columns: auto 1440px auto;
+        }         
+
         >div{
             grid-area: search;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            align-content: center;
 
             form{
                 input{
                 // font-family: 'Poppins', 'Regular', 'Sans-serif';
                 color: (var(--stormblue));
                 font-size:x-large;
-                width: 75%;
+                width: 70%;
                 border: none;
-                border: 1px solid (var(--stormblue));
+                border-bottom: 1px solid (var(--stormblue));
                 padding: 16px 24px;
                 }
 
                 button{
                     background-color: (var(--flower));
                     border: none;
+                    border-radius: 5%;
                     padding: 16px 24px;
+                    
                 }
             }  
         } 
