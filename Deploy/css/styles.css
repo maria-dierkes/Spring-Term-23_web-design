@@ -379,6 +379,7 @@ header #logo {
 }
 header #logo > div {
   color: var(--flower);
+  font-family: "Poppins", "Regular", "Sans-serif";
 }
 header #logo > div ul {
   display: flex;
@@ -419,6 +420,7 @@ header #search > div {
   align-content: center;
 }
 header #search > div form input {
+  font-family: "Poppins", "Regular", "Sans-serif";
   color: var(--stormblue);
   font-size: x-large;
   width: 70%;
@@ -450,6 +452,7 @@ footer {
 }
 footer > div {
   grid-area: footer;
+  font-family: "Poppins", "Regular", "Sans-serif";
   color: var(--stormblue);
 }
 footer > div input {
@@ -470,10 +473,35 @@ footer > div #address {
   padding: 16px;
   grid-area: address;
 }
+footer > div #address a:link, footer > div #address a:visited {
+  color: var(--stormblue);
+  text-decoration: none;
+  background-color: var(--iceblue);
+  display: inline-block;
+  transition: 0.25s;
+  text-align: right;
+}
+footer > div #address a:link:hover, footer > div #address a:link:active, footer > div #address a:visited:hover, footer > div #address a:visited:active {
+  color: var(--flower);
+}
 footer > div #subscribe {
   grid-template-columns: 70% auto;
   padding: 16px;
   grid-area: subscribe;
+}
+footer > div #subscribe a:link, footer > div #subscribe a:visited {
+  color: var(--iceblue);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px;
+  background-color: var(--flower);
+  display: inline-block;
+  transition: 0.25s;
+  text-align: right;
+}
+footer > div #subscribe a:link:hover, footer > div #subscribe a:link:active, footer > div #subscribe a:visited:hover, footer > div #subscribe a:visited:active {
+  background-color: var(--lightflower);
 }
 footer > div #social {
   grid-template-columns: 70% auto;
@@ -483,6 +511,19 @@ footer > div #social {
 footer > div #social ul {
   display: flex;
   gap: 24px;
+}
+footer > div #social ul a:link, footer > div #social ul a:visited {
+  color: var(--iceblue);
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  transition: 0.15s;
+  text-align: right;
+}
+footer > div #social ul a:link:hover, footer > div #social ul a:link:active, footer > div #social ul a:visited:hover, footer > div #social ul a:visited:active {
+  background-color: var(--flower);
+  color: var(--flower);
+  border-radius: 20%;
 }
 @media (min-width: 768px) {
   footer > div {
@@ -529,6 +570,7 @@ footer > div #social ul {
   grid-area: events;
   gap: 16px;
   padding: 26px;
+  font-family: "Poppins", "Regular", "Sans-serif";
 }
 #events > div img {
   border-radius: 50%;
@@ -548,6 +590,20 @@ footer > div #social ul {
   background-color: var(--flower);
   border: none;
   padding: 16px 24px;
+}
+#events > div ul a:link, #events > div ul a:visited {
+  color: var(--iceblue);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 16px;
+  background-color: var(--flower);
+  display: inline-block;
+  transition: 0.25s;
+  text-align: center;
+}
+#events > div ul a:link:hover, #events > div ul a:link:active, #events > div ul a:visited:hover, #events > div ul a:visited:active {
+  background-color: var(--stormblue);
+  color: var(--flower);
 }
 @media (min-width: 768px) {
   #events > div {
@@ -613,6 +669,7 @@ footer > div #social ul {
 #explore > div {
   grid-area: explore;
   padding: 24px;
+  font-family: "Poppins", "Regular", "Sans-serif";
 }
 #explore > div img {
   width: 100%;
@@ -625,6 +682,21 @@ footer > div #social ul {
   padding: 16px 24px;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+#explore ul a:link, #explore ul a:visited {
+  color: var(--iceblue);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px;
+  background-color: var(--flower);
+  display: inline-block;
+  transition: 0.25s;
+  text-align: right;
+}
+#explore ul a:link:hover, #explore ul a:link:active, #explore ul a:visited:hover, #explore ul a:visited:active {
+  background-color: var(--stormblue);
+  color: var(--flower);
 }
 #explore ul li {
   background-color: var(--ice);
@@ -677,9 +749,11 @@ footer > div #social ul {
     Details
 ============= */
 #details > div ul {
+  display: grid;
   margin: 0;
   padding: 0;
   background-color: var(--lightflower);
+  font-family: "Poppins", "Regular", "Sans-serif";
 }
 #details > div ul #ticket {
   grid-template-columns: 70 auto;
@@ -691,18 +765,17 @@ footer > div #social ul {
   background-color: var(--lightflower);
   padding: 16px;
 }
-#details > div ul a:link,
-#details > div ul a:visited {
-  color: var(--ice);
+#details > div ul a:link, #details > div ul a:visited {
+  color: var(--flower);
   text-decoration: none;
   font-size: 25px;
   padding: 16px;
   background-color: var(--iceblue);
   display: inline-block;
   transition: 0.25s;
+  text-align: right;
 }
-#details > div ul a:hover,
-#details > div ul a:active {
+#details > div ul a:link:hover, #details > div ul a:link:active, #details > div ul a:visited:hover, #details > div ul a:visited:active {
   background-color: var(--stormblue);
   color: var(--flower);
 }

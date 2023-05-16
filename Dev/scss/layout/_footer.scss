@@ -15,7 +15,7 @@ footer{
 
     >div{
         grid-area: footer;
-        // font-family: 'Poppins', 'Regular', 'Sans-serif';
+        font-family: 'Poppins', 'Regular', 'Sans-serif';
         color: var(--stormblue);
         input{
             border: none;
@@ -29,17 +29,52 @@ footer{
             color: var(--iceblue);
             border: none;
             padding: 16px 24px;
+            
         }
         
         #address{
             grid-template-columns: 70% auto;
             padding: 16px;
             grid-area: address;
+
+            a:link, a:visited {
+
+                color: (var(--stormblue));
+                text-decoration: none;
+                background-color: (var(--iceblue));
+                display: inline-block;
+                transition: 0.25s;
+                text-align: right;
+                
+                &:hover,
+                &:active {
+                    color: (var(--flower));
+                }
+            }
+
         }
         #subscribe{
             grid-template-columns: 70% auto;
             padding: 16px;
             grid-area: subscribe;
+
+            a:link, a:visited {
+
+                color: (var(--iceblue));
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 16px;
+                background-color: (var(--flower));
+                display: inline-block;
+                transition: 0.25s;
+                text-align: right;
+                
+                &:hover,
+                &:active {
+                    background-color: (var(--lightflower));
+                }
+            }   
 
         }
         #social{
@@ -49,8 +84,27 @@ footer{
             ul{
                 display: flex;
                 gap: 24px;
+
+                a:link, a:visited {
+
+                    color: (var(--iceblue));
+                    text-decoration: none;
+                    padding: 10px;
+                    display: inline-block;
+                    transition: 0.15s;
+                    text-align: right;
+                    
+                    &:hover,
+                    &:active {
+                        background-color: (var(--flower));
+                        color: (var(--flower));
+                        border-radius: 20%;
+                    }
+                }   
             }
         }
+
+        
 
 
         @include md{

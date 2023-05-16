@@ -17,7 +17,7 @@
             grid-area: events;
             gap: 16px;
             padding: 26px;
-            // font-family: 'Poppins', 'Regular', 'Sans-serif';
+            font-family: 'Poppins', 'Regular', 'Sans-serif';
 
             img{
                 border-radius: 50%;
@@ -43,6 +43,24 @@
                         padding: 16px 24px;
                     }
                 } 
+
+                a:link, a:visited {
+
+                    color: (var(--iceblue));
+                    text-decoration: none;
+                    font-size: 25px;
+                    padding: 16px;
+                    background-color: (var(--flower));
+                    display: inline-block;
+                    transition: 0.25s;
+                    text-align: center;
+                    
+                    &:hover,
+                    &:active {
+                        background-color: (var(--stormblue));
+                        color: (var(--flower));
+                    }
+                }
             }
             @include md {
                 display: grid;
