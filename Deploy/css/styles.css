@@ -397,6 +397,18 @@ header #logo > div ul #l2 {
 header #logo > div ul #l3 {
   margin-left: auto;
 }
+header #logo > div ul a:link, header #logo > div ul a:visited {
+  text-decoration: none;
+  padding: 16px;
+  display: inline-block;
+  transition: 0.25s;
+  text-align: right;
+  color: var(--flower);
+}
+header #logo > div ul a:link:hover, header #logo > div ul a:link:active, header #logo > div ul a:visited:hover, header #logo > div ul a:visited:active {
+  color: var(--stormblue);
+  padding: 20px;
+}
 header #logo > div button {
   border: none;
   color: var(--flower);
@@ -406,6 +418,7 @@ header #search {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
+  align-content: center;
 }
 @media (min-width: 1440px) {
   header #search {
@@ -418,6 +431,21 @@ header #search > div {
   margin-top: 24px;
   margin-bottom: 24px;
   align-content: center;
+}
+header #search > div a:link, header #search > div a:visited {
+  text-decoration: none;
+  background-color: var(--flower);
+  padding: 16px;
+  display: inline-block;
+  transition: 0.25s;
+  text-align: right;
+  border-radius: 10%;
+}
+header #search > div a:link:hover, header #search > div a:link:active, header #search > div a:visited:hover, header #search > div a:visited:active {
+  color: var(--ice);
+  background-color: var(--lightflower);
+  border-radius: 20%;
+  padding: 22px;
 }
 header #search > div form input {
   font-family: "Poppins", "Regular", "Sans-serif";
@@ -502,6 +530,7 @@ footer > div #subscribe a:link, footer > div #subscribe a:visited {
 }
 footer > div #subscribe a:link:hover, footer > div #subscribe a:link:active, footer > div #subscribe a:visited:hover, footer > div #subscribe a:visited:active {
   background-color: var(--lightflower);
+  padding: 20px;
 }
 footer > div #social {
   grid-template-columns: 70% auto;
@@ -524,6 +553,7 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
   background-color: var(--flower);
   color: var(--flower);
   border-radius: 20%;
+  padding: 16px;
 }
 @media (min-width: 768px) {
   footer > div {
@@ -594,7 +624,8 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
 #events > div ul a:link, #events > div ul a:visited {
   color: var(--iceblue);
   text-decoration: none;
-  font-size: 25px;
+  font-size: 16px;
+  font-weight: bold;
   padding: 16px;
   background-color: var(--flower);
   display: inline-block;
@@ -604,6 +635,7 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
 #events > div ul a:link:hover, #events > div ul a:link:active, #events > div ul a:visited:hover, #events > div ul a:visited:active {
   background-color: var(--stormblue);
   color: var(--flower);
+  padding: 20px;
 }
 @media (min-width: 768px) {
   #events > div {
@@ -697,6 +729,7 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
 #explore ul a:link:hover, #explore ul a:link:active, #explore ul a:visited:hover, #explore ul a:visited:active {
   background-color: var(--stormblue);
   color: var(--flower);
+  padding: 20px;
 }
 #explore ul li {
   background-color: var(--ice);
@@ -757,7 +790,6 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
 }
 #details > div ul #ticket {
   grid-template-columns: 70 auto;
-  display: grid;
   background-color: var(--flower);
   padding: 16px;
 }
@@ -768,7 +800,8 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
 #details > div ul a:link, #details > div ul a:visited {
   color: var(--flower);
   text-decoration: none;
-  font-size: 25px;
+  font-size: 16px;
+  font-weight: bold;
   padding: 16px;
   background-color: var(--iceblue);
   display: inline-block;
@@ -778,6 +811,7 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
 #details > div ul a:link:hover, #details > div ul a:link:active, #details > div ul a:visited:hover, #details > div ul a:visited:active {
   background-color: var(--stormblue);
   color: var(--flower);
+  padding: 20px;
 }
 @media (min-width: 768px) {
   #details > div {

@@ -13,7 +13,7 @@
         
                 #ticket{
                     grid-template-columns: 70 auto;
-                    display: grid;
+
         
                     background-color: var(--flower); 
                     padding: 16px; 
@@ -28,7 +28,8 @@
 
                     color: (var(--flower));
                     text-decoration: none;
-                    font-size: 25px;
+                    font-size: 16px;
+                    font-weight: bold;
                     padding: 16px;
                     background-color: (var(--iceblue));
                     display: inline-block;
@@ -39,6 +40,7 @@
                     &:active {
                         background-color: (var(--stormblue));
                         color: (var(--flower));
+                        padding: 20px;
                     }
                 }   
             }   

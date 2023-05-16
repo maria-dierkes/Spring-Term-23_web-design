@@ -28,6 +28,21 @@ header{
                     margin-left: auto;
                 }
 
+                a:link, a:visited {
+                    text-decoration: none;
+                    padding: 16px;
+                    display: inline-block;
+                    transition: 0.25s;
+                    text-align: right;
+                    color: (var(--flower));
+                    
+                    &:hover,
+                    &:active {
+                        color: (var(--stormblue));
+                        padding: 20px;
+                    }
+                }
+
             }
                 
             button{
@@ -47,6 +62,7 @@ header{
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". search .";
+        align-content: center;
 
         @include xxl{
             Display: grid;
@@ -58,6 +74,25 @@ header{
             margin-top: 24px;
             margin-bottom: 24px;
             align-content: center;
+
+
+            a:link, a:visited {
+                text-decoration: none;
+                background-color: (var(--flower));
+                padding: 16px;
+                display: inline-block;
+                transition: 0.25s;
+                text-align: right;
+                border-radius: 10%;
+                
+                &:hover,
+                &:active {
+                    color: (var(--ice));
+                    background-color:(var(--lightflower));
+                    border-radius: 20%;
+                    padding: 22px;
+                }
+            }
 
             form{
                 input{
