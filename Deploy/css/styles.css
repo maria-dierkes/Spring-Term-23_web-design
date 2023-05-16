@@ -604,6 +604,7 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
 }
 #events > div img {
   border-radius: 50%;
+  align-items: right;
 }
 #events > div ul #plan {
   display: grid;
@@ -806,7 +807,6 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
   background-color: var(--iceblue);
   display: inline-block;
   transition: 0.25s;
-  text-align: right;
 }
 #details > div ul a:link:hover, #details > div ul a:link:active, #details > div ul a:visited:hover, #details > div ul a:visited:active {
   background-color: var(--stormblue);
