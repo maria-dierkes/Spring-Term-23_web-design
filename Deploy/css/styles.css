@@ -397,6 +397,8 @@ nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav 
 header {
   display: grid;
   grid-template-columns: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
 }
 header #logo {
   background-color: var(--iceblue);
@@ -404,6 +406,9 @@ header #logo {
 header #logo > div {
   color: var(--flower);
   font-family: "Poppins", "Regular", "Sans-serif";
+  position: fixed;
+  width: 100%;
+  background-color: var(--iceblue);
 }
 header #logo > div ul {
   display: flex;
