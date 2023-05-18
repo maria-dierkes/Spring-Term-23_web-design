@@ -34,7 +34,8 @@
         }
 
         .backimg{
-            background-image: url(..)
+            background-image: url(...img/feature/drexel.jpg);
+            background-position: auto;
         }
         a{
             padding-bottom: 16px;
@@ -107,27 +108,47 @@
             #e1{
                 @include md{
                     grid-area: e1;
+                    .backimg{
+                        background-image: url(...img/feature/drexel.jpg);
+                    }
+                    
                 }
             }
             #e2{
                 @include md{
                     grid-area: e2;
+                    .backimg{
+                        background-image: url(...img/feature/makers.jpg);
+                    }
+                    
                 }
             }
             #e3{
                 @include md{
                     grid-area: e3;
+                    .backimg{
+                        background-image: url(...img/feature/compost.jpg);
+                    }
+                    
                         
                 }
             }
             #e4{
                 @include md{
                     grid-area: e4;
+                    .backimg{
+                        background-image: url(...img/feature/expert.jpg);
+                    }
+                    
                 }
             }
             #e5{
                 @include md{
                     grid-area: e5;
+                    .backimg{
+                        background-image: url(...img/feature/bulbs.jpg);
+                    }
+                    
                 }
             }
         }

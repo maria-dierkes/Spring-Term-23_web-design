@@ -1,13 +1,12 @@
-section.headersearch{
-    color: #A14F4C;
-    grid-template-columns: 3px 150px;
-    }
+
 
     #search{
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". search .";
         align-content: center;
+        
+        margin-top: 200px;
     
         @include xxl{
             Display: grid;

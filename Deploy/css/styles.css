@@ -560,16 +560,12 @@ footer > div #copyright {
   }
 }
 
-section.headersearch {
-  color: #A14F4C;
-  grid-template-columns: 3px 150px;
-}
-
 #search {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
   align-content: center;
+  margin-top: 200px;
 }
 @media (min-width: 1440px) {
   #search {
@@ -768,7 +764,8 @@ section.headersearch {
   padding: 16px;
 }
 #explore > div .backimg {
-  background-image: url(..);
+  background-image: url(...img/feature/drexel.jpg);
+  background-position: auto;
 }
 #explore > div a {
   padding-bottom: 16px;
@@ -824,25 +821,40 @@ section.headersearch {
   #explore > div ul #e1 {
     grid-area: e1;
   }
+  #explore > div ul #e1 .backimg {
+    background-image: url(...img/feature/drexel.jpg);
+  }
 }
 @media (min-width: 768px) {
   #explore > div ul #e2 {
     grid-area: e2;
+  }
+  #explore > div ul #e2 .backimg {
+    background-image: url(...img/feature/makers.jpg);
   }
 }
 @media (min-width: 768px) {
   #explore > div ul #e3 {
     grid-area: e3;
   }
+  #explore > div ul #e3 .backimg {
+    background-image: url(...img/feature/compost.jpg);
+  }
 }
 @media (min-width: 768px) {
   #explore > div ul #e4 {
     grid-area: e4;
   }
+  #explore > div ul #e4 .backimg {
+    background-image: url(...img/feature/expert.jpg);
+  }
 }
 @media (min-width: 768px) {
   #explore > div ul #e5 {
     grid-area: e5;
+  }
+  #explore > div ul #e5 .backimg {
+    background-image: url(...img/feature/bulbs.jpg);
   }
 }
 
