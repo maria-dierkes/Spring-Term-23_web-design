@@ -1,3 +1,29 @@
 /* =============
     Navigation
 ============= */
+
+nav{
+
+    ul{
+        border: 1px solid red;
+
+        @include lg{
+            display: block;
+        }
+
+        li{
+            a:link, a:visited{
+                padding: 24px 36px;
+                border: 1px solid var(--iceblue);
+                color: var(--flower);
+                border-radius: 6px;
+                transition: 0.25s;
+                font-family: 'Poppins', 'Regular', 'Sans-serif';
+
+                &:hover, &:active{
+                    background-color: var(--ice);
+                }
+            }
+        }
+    }
+}

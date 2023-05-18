@@ -9,14 +9,13 @@
                 margin: 0;
                 padding: 0;
                 background-color: var(--lightflower);
-                font-family: 'Poppins', 'Regular', 'Sans-serif';
-        
+                font-family: 'Poppins', 'regular', 'Sans-serif';
+                
                 #ticket{
                     grid-template-columns: 70 auto;
-
-        
                     background-color: var(--flower); 
                     padding: 16px; 
+
                 }
 
                 #location{
@@ -24,12 +23,20 @@
                     padding: 16px;
                 }
 
+                #detailbutton{
+                    display: flex;
+                    align-items: center;
+                    margin-left: auto;
+                    padding: 0;
+                    border: none;
+                }
+
                 a:link, a:visited {
 
                     color: (var(--flower));
                     text-decoration: none;
-                    font-size: 16px;
-                    font-weight: bold;
+                    font-size: 20px;
+                    font-weight: regular;
                     padding: 16px;
                     background-color: (var(--iceblue));
                     display: inline-block;

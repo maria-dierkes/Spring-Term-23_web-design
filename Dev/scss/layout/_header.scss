@@ -4,6 +4,11 @@
 
 header{
 
+    display: grid;
+    grid-template-columns: 100%;
+   
+
+
     #logo{
         background-color: var(--iceblue);
 
@@ -15,16 +20,20 @@ header{
                 display: flex;
                 margin: 0;
                 padding: 26px;
-                display: flex;
-                gap: 24px;
+                gap: 20px;
                 
                 #l1{
                     background-color: var(--iceblue);
+                    margin-top: 20px;
                 }
                 #l2{
                     background-color: var(--iceblue);
+                    display: flex;
+                    align-items: center;
                 }
                 #l3{
+                    display: flex;
+                    align-items: center;
                     margin-left: auto;
                 }
 

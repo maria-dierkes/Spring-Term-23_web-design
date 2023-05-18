@@ -26,79 +26,80 @@
             margin-bottom: 10px;
             margin-top: 10px;
         } 
-    }
     
-    ul{
+    
+        ul{
 
-        a:link, a:visited {
+            a:link, a:visited {
 
-            color: (var(--iceblue));
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-            padding: 16px;
-            background-color: (var(--flower));
-            display: inline-block;
-            transition: 0.25s;
-            text-align: right;
-            
-            &:hover,
-            &:active {
-                background-color: (var(--stormblue));
-                color: (var(--flower));
-                padding: 20px;
+                color: (var(--iceblue));
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 16px;
+                background-color: (var(--flower));
+                display: inline-block;
+                transition: 0.25s;
+                text-align: right;
+                
+                &:hover,
+                &:active {
+                    background-color: (var(--stormblue));
+                    color: (var(--flower));
+                    padding: 20px;
+                }
             }
-        }
 
-        li{ 
-            background-color: var(--ice);
-            text-align: center;
-            padding-bottom: 10px;
-        }
+            li{ 
+                background-color: var(--ice);
+                text-align: center;
+                padding-bottom: 10px;
+            }
 
-        @include md{
-            display: grid;
-            gap: 16px;
-            grid-template-columns: repeat (4, 1fr);
-            grid-template-areas: 
-            "e1 e1 e2 e2"
-            "e3 e3 e4 e4"
-            ". e5 e5 .";
-        }
+            @include md{
+                display: grid;
+                gap: 16px;
+                grid-template-columns: repeat (4, 1fr);
+                grid-template-areas: 
+                "e1 e1 e2 e2"
+                "e3 e3 e4 e4"
+                ". e5 e5 .";
+            }
 
-        @include lg{
-            display: grid;
-            gap: 16px;
-            grid-template-columns: repeat (6, 1fr);
-            grid-template-areas: 
-            "e1 e1 e2 e2 e3 e3"
-            ". e4 e4 e5 e5 .";
-        }   
+            @include lg{
+                display: grid;
+                gap: 16px;
+                grid-template-columns: repeat (6, 1fr);
+                grid-template-areas: 
+                "e1 e1 e2 e2 e3 e3"
+                ". e4 e4 e5 e5 .";
+            }   
 
-        #e1{
-            @include md{
-                grid-area: e1;
+            #e1{
+                @include md{
+                    grid-area: e1;
+                }
             }
-        }
-        #e2{
-            @include md{
-                grid-area: e2;
+            #e2{
+                @include md{
+                    grid-area: e2;
+                }
             }
-        }
-        #e3{
-            @include md{
-                grid-area: e3;
-                    
+            #e3{
+                @include md{
+                    grid-area: e3;
+                        
+                }
             }
-        }
-        #e4{
-            @include md{
-                grid-area: e4;
+            #e4{
+                @include md{
+                    grid-area: e4;
+                }
             }
-        }
-        #e5{
-            @include md{
-                grid-area: e5;
+            #e5{
+                @include md{
+                    grid-area: e5;
+                }
             }
         }
     }

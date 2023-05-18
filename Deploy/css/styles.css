@@ -371,9 +371,33 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav ul {
+  border: 1px solid red;
+}
+@media (min-width: 1024px) {
+  nav ul {
+    display: block;
+  }
+}
+nav ul li a:link, nav ul li a:visited {
+  padding: 24px 36px;
+  border: 1px solid var(--iceblue);
+  color: var(--flower);
+  border-radius: 6px;
+  transition: 0.25s;
+  font-family: "Poppins", "Regular", "Sans-serif";
+}
+nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+  background-color: var(--ice);
+}
+
 /* =============
     Header
 ============= */
+header {
+  display: grid;
+  grid-template-columns: 100%;
+}
 header #logo {
   background-color: var(--iceblue);
 }
@@ -385,16 +409,20 @@ header #logo > div ul {
   display: flex;
   margin: 0;
   padding: 26px;
-  display: flex;
-  gap: 24px;
+  gap: 20px;
 }
 header #logo > div ul #l1 {
   background-color: var(--iceblue);
+  margin-top: 20px;
 }
 header #logo > div ul #l2 {
   background-color: var(--iceblue);
+  display: flex;
+  align-items: center;
 }
 header #logo > div ul #l3 {
+  display: flex;
+  align-items: center;
   margin-left: auto;
 }
 header #logo > div ul a:link, header #logo > div ul a:visited {
@@ -721,7 +749,7 @@ footer > div #copyright {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-#explore ul a:link, #explore ul a:visited {
+#explore > div ul a:link, #explore > div ul a:visited {
   color: var(--iceblue);
   text-decoration: none;
   font-size: 16px;
@@ -732,18 +760,18 @@ footer > div #copyright {
   transition: 0.25s;
   text-align: right;
 }
-#explore ul a:link:hover, #explore ul a:link:active, #explore ul a:visited:hover, #explore ul a:visited:active {
+#explore > div ul a:link:hover, #explore > div ul a:link:active, #explore > div ul a:visited:hover, #explore > div ul a:visited:active {
   background-color: var(--stormblue);
   color: var(--flower);
   padding: 20px;
 }
-#explore ul li {
+#explore > div ul li {
   background-color: var(--ice);
   text-align: center;
   padding-bottom: 10px;
 }
 @media (min-width: 768px) {
-  #explore ul {
+  #explore > div ul {
     display: grid;
     gap: 16px;
     grid-template-columns: repeat 4, 1fr;
@@ -751,7 +779,7 @@ footer > div #copyright {
   }
 }
 @media (min-width: 1024px) {
-  #explore ul {
+  #explore > div ul {
     display: grid;
     gap: 16px;
     grid-template-columns: repeat 6, 1fr;
@@ -759,27 +787,27 @@ footer > div #copyright {
   }
 }
 @media (min-width: 768px) {
-  #explore ul #e1 {
+  #explore > div ul #e1 {
     grid-area: e1;
   }
 }
 @media (min-width: 768px) {
-  #explore ul #e2 {
+  #explore > div ul #e2 {
     grid-area: e2;
   }
 }
 @media (min-width: 768px) {
-  #explore ul #e3 {
+  #explore > div ul #e3 {
     grid-area: e3;
   }
 }
 @media (min-width: 768px) {
-  #explore ul #e4 {
+  #explore > div ul #e4 {
     grid-area: e4;
   }
 }
 @media (min-width: 768px) {
-  #explore ul #e5 {
+  #explore > div ul #e5 {
     grid-area: e5;
   }
 }
@@ -792,7 +820,7 @@ footer > div #copyright {
   margin: 0;
   padding: 0;
   background-color: var(--lightflower);
-  font-family: "Poppins", "Regular", "Sans-serif";
+  font-family: "Poppins", "regular", "Sans-serif";
 }
 #details > div ul #ticket {
   grid-template-columns: 70 auto;
@@ -803,11 +831,18 @@ footer > div #copyright {
   background-color: var(--lightflower);
   padding: 16px;
 }
+#details > div ul #detailbutton {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 0;
+  border: none;
+}
 #details > div ul a:link, #details > div ul a:visited {
   color: var(--flower);
   text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: regular;
   padding: 16px;
   background-color: var(--iceblue);
   display: inline-block;
