@@ -555,18 +555,23 @@ footer > div #social ul a:link:hover, footer > div #social ul a:link:active, foo
   border-radius: 20%;
   padding: 16px;
 }
+footer > div #copyright {
+  padding: 16px;
+  grid-area: copyright;
+}
 @media (min-width: 768px) {
   footer > div {
     display: grid;
     grid-template-columns: repeat 2, 1fr;
-    grid-template-areas: "address subscribe" " . social";
+    grid-template-rows: 30% auto;
+    grid-template-areas: "address subscribe" " . social" "copyright .";
   }
 }
 @media (min-width: 1024px) {
   footer > div {
     display: grid;
     grid-template-columns: repeat 3, 1fr;
-    grid-template-areas: "address subscribe social";
+    grid-template-areas: "address subscribe social" "copyright . .";
   }
 }
 

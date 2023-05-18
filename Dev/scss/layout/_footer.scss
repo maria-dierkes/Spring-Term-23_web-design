@@ -106,21 +106,30 @@ footer{
             }
         }
 
+        #copyright{
+            // grid-template-columns: 70% auto;
+            padding: 16px;
+            grid-area: copyright;
+        }
+
         
 
 
         @include md{
             display: grid;
             grid-template-columns: repeat (2, 1fr);
+            grid-template-rows: 30% auto;
             grid-template-areas:
             "address subscribe"
-            " . social";
+            " . social"
+            "copyright .";
         }
         @include lg{
                 display: grid;
                 grid-template-columns: repeat (3, 1fr);
                 grid-template-areas:
-                "address subscribe social";
+                "address subscribe social"
+                "copyright . .";
 
         }
     }  
