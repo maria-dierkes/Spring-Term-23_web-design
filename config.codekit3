@@ -561,6 +561,14 @@
       "oAP" : "\/Dev\/content\/photos.html",
       "oF" : 0
     },
+    "\/Dev\/content\/search.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/content\/search.html",
+      "oF" : 0
+    },
     "\/Dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,

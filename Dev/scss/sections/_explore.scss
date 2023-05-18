@@ -26,9 +26,50 @@
             margin-bottom: 10px;
             margin-top: 10px;
         } 
+
+        .description{
+            height: 100%;
+            box-sizing: border-box;
+            padding: 16px;
+        }
+
+        .backimg{
+            background-image: url(..)
+        }
+        a{
+            padding-bottom: 16px;
+        }
+        
     
     
         ul{
+
+            @include md{
+                display: grid;
+                gap: 16px;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-areas: 
+                "e1 e1 e2 e2"
+                "e3 e3 e4 e4"
+                ". e5 e5 .";
+            }
+
+            @include lg{
+                display: grid;
+                gap: 16px;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas: 
+                "e1 e1 e2 e2 e3 e3"
+                ". e4 e4 e5 e5 .";
+            }  
+
+
+            .description{
+                height: 100%;
+                box-sizing: border-box;
+                padding: 16px;
+
+            }
 
             a:link, a:visited {
 
@@ -52,28 +93,16 @@
 
             li{ 
                 background-color: var(--ice);
-                text-align: center;
+                // text-align: center;
                 padding-bottom: 10px;
+
+                @include md{
+                    display: grid;
+                    grid-template-rows: 20vh auto;
+                }
             }
 
-            @include md{
-                display: grid;
-                gap: 16px;
-                grid-template-columns: repeat (4, 1fr);
-                grid-template-areas: 
-                "e1 e1 e2 e2"
-                "e3 e3 e4 e4"
-                ". e5 e5 .";
-            }
-
-            @include lg{
-                display: grid;
-                gap: 16px;
-                grid-template-columns: repeat (6, 1fr);
-                grid-template-areas: 
-                "e1 e1 e2 e2 e3 e3"
-                ". e4 e4 e5 e5 .";
-            }   
+            
 
             #e1{
                 @include md{
