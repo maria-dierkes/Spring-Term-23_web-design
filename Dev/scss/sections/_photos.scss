@@ -2,63 +2,86 @@
     photos
 ============= */
 
-#photos{ 
-     >div{ 
-        @include lg{
-                display: grid;
-                grid-template-columns: 16px auto 16px;
-                grid-template-areas: ". gallery .";
-        }
+#photos{
 
-        @include xxl{
-            grid-template-columns: auto 1440px auto;
-        }
+    scroll-margin-top: 230px;
+    
+    section{
+            @include lg{
+                        display: grid;
+                        grid-template-columns: 16px auto 16px;
+                        grid-template-areas: ". gallery .";
+            }
+
+            @include xxl{
+                grid-template-columns: auto 1440px auto;
+            }
+
+            
+        
+
         ul{
-
             display: grid;
+            grid-template-rows: 25vh 50vh;
+            background-position: center;
+            background-size: cover;
+
+           li{
+            background-color: var(--ice);
 
             @include md{
-                grid-template-columns: 50% auto;
+                display: grid;
+                grid-template-rows: 20vh auto;
+            }
+            }
+        }
+            .p1-1{
+                background-color: black;
+                background-image: url("../img/heroes/hero-3.jpg");
+                background-position: auto;
+            }
 
+            .p2-2{
+                background-image: url("../img/heroes/hero-4.jpg");
+                background-position: center top;
+            }
+            .p3-3{
+                background-image: url("../img/heroes/hero-2.jpg");
+                background-position: auto;
+            }
+
+            #p1{
+                @include xxl{
+                    grid-area: p1;
+                }
+            }
+
+            #p2{
+                @include xxl{
+                    grid-area: p2;
+                }
+            }
+
+            #p3{
+                display: none;
+                @include xxl{
+                    grid-area: p3;
+                }
+            }
+
+            @include md{
+                grid-template-columns: auto;
             }
 
             @include lg{
-                grid-area: gallery;
+            grid-area: gallery;
             }
 
-            li{
-            margin: 0;
-            padding: 26px;
-
-            }
-            
-            // margin: 0;
-            // padding: 26px;
-
+            @include xxl{
+                grid-template-areas:
+                "p1 p2"
+                "p1 p3";
+            } 
         
-            //     #p1{
-            //         grid-template-columns: 80 auto;
-            //         display: grid;
-            //         grid-area: p1;
-            //     }
-
-            //     #p2{
-            //         grid-area: p2; 
-            //     }
-                
-
-            //     #p3{
-            //         grid-area: p3; 
-            //     }
-                
-            // @include md {
-            //     display: grid;
-            //     grid-template-columns: repeat (4, 1fr);
-            //     grid-template-areas: 
-            //     "p1 p1 p1 p2"
-            //     "p3 p3 p3 p3";
-            // }
-        }   
-    } 
+    }    
 }
-

@@ -371,24 +371,60 @@ textarea {
 /* =============
     Navigation
 ============= */
-nav ul {
-  border: 1px solid red;
+html {
+  scroll-behavior: smooth;
+}
+
+.show-menu {
+  display: block !important;
+}
+
+nav {
+  display: none;
 }
 @media (min-width: 1024px) {
-  nav ul {
+  nav {
     display: block;
   }
 }
-nav ul li a:link, nav ul li a:visited {
-  padding: 24px 36px;
-  border: 1px solid var(--iceblue);
-  color: var(--flower);
-  border-radius: 6px;
-  transition: 0.25s;
-  font-family: "Poppins", "Regular", "Sans-serif";
+nav ul {
+  position: center;
 }
-nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
-  background-color: var(--ice);
+@media (min-width: 1024px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+nav ul li {
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  nav ul li {
+    margin-left: 16px;
+  }
+}
+nav ul li a:link, nav ul li a:visited {
+  display: inline-block;
+  color: var(--flower);
+  font-family: "Poppins", "Regular", "Sans-serif";
+  padding: 24px 26px;
+}
+@media (min-width: 1024px) {
+  nav ul li a:link, nav ul li a:visited {
+    padding: 24px 26px;
+    transition: 0.25s;
+    border-radius: 6px;
+    padding: 24px 36px;
+    border: 1px solid var(--iceblue);
+  }
+}
+@media (min-width: 1024px) {
+  nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+    background-color: var(--ice);
+    color: var(--flower);
+  }
 }
 
 /* =============
@@ -400,6 +436,8 @@ header {
 }
 header #logo {
   background-color: var(--iceblue);
+  align-items: center;
+  justify-content: center;
 }
 header #logo > div {
   color: var(--flower);
@@ -408,12 +446,12 @@ header #logo > div {
   width: 100%;
   background-color: var(--iceblue);
   box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
+  box-shadow: 0px 5px 7px rgba(42, 48, 54, 0.3);
 }
 header #logo > div ul {
   display: flex;
   margin: 0;
-  padding: 26px;
+  padding: 5px 26px 5px;
   gap: 20px;
 }
 header #logo > div ul #l1 {
@@ -501,6 +539,7 @@ footer > div #subscribe {
   grid-template-columns: 70% auto;
   padding: 16px;
   grid-area: subscribe;
+  scroll-margin-top: 220px;
 }
 footer > div #subscribe a:link, footer > div #subscribe a:visited {
   color: var(--iceblue);
@@ -565,7 +604,7 @@ footer > div #copyright {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
   align-content: center;
-  margin-top: 200px;
+  margin-top: 220px;
 }
 @media (min-width: 1440px) {
   #search {
@@ -626,6 +665,7 @@ footer > div #copyright {
     Events
 ============= */
 #events {
+  scroll-margin-top: 200px;
   display: grid;
   grid-template-columns: 3px auto 3px;
   grid-template-areas: ". events .";
@@ -701,39 +741,89 @@ footer > div #copyright {
 /* =============
     photos
 ============= */
+#photos {
+  scroll-margin-top: 230px;
+}
 @media (min-width: 1024px) {
-  #photos > div {
+  #photos section {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". gallery .";
   }
 }
 @media (min-width: 1440px) {
-  #photos > div {
+  #photos section {
     grid-template-columns: auto 1440px auto;
   }
 }
-#photos > div ul {
+#photos section ul {
   display: grid;
+  grid-template-rows: 25vh 50vh;
+  background-position: center;
+  background-size: cover;
+}
+#photos section ul li {
+  background-color: var(--ice);
 }
 @media (min-width: 768px) {
-  #photos > div ul {
-    grid-template-columns: 50% auto;
+  #photos section ul li {
+    display: grid;
+    grid-template-rows: 20vh auto;
+  }
+}
+#photos section .p1-1 {
+  background-color: black;
+  background-image: url("../img/heroes/hero-3.jpg");
+  background-position: auto;
+}
+#photos section .p2-2 {
+  background-image: url("../img/heroes/hero-4.jpg");
+  background-position: center top;
+}
+#photos section .p3-3 {
+  background-image: url("../img/heroes/hero-2.jpg");
+  background-position: auto;
+}
+@media (min-width: 1440px) {
+  #photos section #p1 {
+    grid-area: p1;
+  }
+}
+@media (min-width: 1440px) {
+  #photos section #p2 {
+    grid-area: p2;
+  }
+}
+#photos section #p3 {
+  display: none;
+}
+@media (min-width: 1440px) {
+  #photos section #p3 {
+    grid-area: p3;
+  }
+}
+@media (min-width: 768px) {
+  #photos section {
+    grid-template-columns: auto;
   }
 }
 @media (min-width: 1024px) {
-  #photos > div ul {
+  #photos section {
     grid-area: gallery;
   }
 }
-#photos > div ul li {
-  margin: 0;
-  padding: 26px;
+@media (min-width: 1440px) {
+  #photos section {
+    grid-template-areas: "p1 p2" "p1 p3";
+  }
 }
 
 /* =============
     Explore
 ============= */
+#explore {
+  scroll-margin-top: 220px;
+}
 @media (min-width: 1440px) {
   #explore {
     display: grid;
@@ -748,7 +838,7 @@ footer > div #copyright {
 }
 #explore > div img {
   width: 100%;
-  height: 50%;
+  height: 50% auto;
 }
 #explore > div button {
   background-color: var(--flower);
@@ -762,10 +852,6 @@ footer > div #copyright {
   height: 100%;
   box-sizing: border-box;
   padding: 16px;
-}
-#explore > div .backimg {
-  background-image: url(...img/feature/drexel.jpg);
-  background-position: auto;
 }
 #explore > div a {
   padding-bottom: 16px;
@@ -817,50 +903,58 @@ footer > div #copyright {
     grid-template-rows: 20vh auto;
   }
 }
+#explore > div ul .backimg-1 {
+  background-image: url("../img/feature/drexel.jpg");
+  background-position: auto;
+}
+#explore > div ul .backimg-2 {
+  background-image: url("../img/feature/makers.jpg");
+  background-position: auto;
+}
+#explore > div ul .backimg-3 {
+  background-image: url("../img/feature/compost.jpg");
+  background-position: auto;
+}
+#explore > div ul .backimg-4 {
+  background-image: url("../img/feature/expert.jpg");
+  background-position: auto;
+}
+#explore > div ul .backimg-5 {
+  background-image: url("../img/feature/bulbs.jpg");
+  background-position: auto;
+}
 @media (min-width: 768px) {
   #explore > div ul #e1 {
     grid-area: e1;
-  }
-  #explore > div ul #e1 .backimg {
-    background-image: url(...img/feature/drexel.jpg);
   }
 }
 @media (min-width: 768px) {
   #explore > div ul #e2 {
     grid-area: e2;
   }
-  #explore > div ul #e2 .backimg {
-    background-image: url(...img/feature/makers.jpg);
-  }
 }
 @media (min-width: 768px) {
   #explore > div ul #e3 {
     grid-area: e3;
-  }
-  #explore > div ul #e3 .backimg {
-    background-image: url(...img/feature/compost.jpg);
   }
 }
 @media (min-width: 768px) {
   #explore > div ul #e4 {
     grid-area: e4;
   }
-  #explore > div ul #e4 .backimg {
-    background-image: url(...img/feature/expert.jpg);
-  }
 }
 @media (min-width: 768px) {
   #explore > div ul #e5 {
     grid-area: e5;
-  }
-  #explore > div ul #e5 .backimg {
-    background-image: url(...img/feature/bulbs.jpg);
   }
 }
 
 /* =============
     Details
 ============= */
+#details {
+  scroll-margin-top: 230px;
+}
 #details > div ul {
   display: grid;
   margin: 0;

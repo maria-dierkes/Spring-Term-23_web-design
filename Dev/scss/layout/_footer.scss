@@ -3,6 +3,7 @@
 ============= */
 
 footer{
+
     background-color: #2E3949;
     display: grid;
     grid-template-columns: 16px auto 16px;
@@ -53,10 +54,12 @@ footer{
             }
 
         }
+
         #subscribe{
             grid-template-columns: 70% auto;
             padding: 16px;
             grid-area: subscribe;
+            scroll-margin-top: 220px;
 
             a:link, a:visited {
 

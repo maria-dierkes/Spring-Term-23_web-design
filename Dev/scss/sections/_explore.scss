@@ -3,6 +3,9 @@
 ============= */
 
 #explore{
+
+    scroll-margin-top: 220px;
+
     @include xxl{
             display: grid;
             grid-template-columns: auto 1440px auto;
@@ -16,7 +19,7 @@
         font-family: 'Poppins', 'Regular', 'Sans-serif';
         img{
             width: 100%;
-            height: 50%;
+            height: 50% auto;
         }
         button{
             background-color: var(--flower);
@@ -33,15 +36,10 @@
             padding: 16px;
         }
 
-        .backimg{
-            background-image: url(...img/feature/drexel.jpg);
-            background-position: auto;
-        }
         a{
             padding-bottom: 16px;
         }
-        
-    
+
     
         ul{
 
@@ -103,52 +101,58 @@
                 }
             }
 
-            
+            .backimg-1{
+                background-image: url("../img/feature/drexel.jpg");
+                background-position: auto;
+            }
+    
+            .backimg-2{
+                background-image: url("../img/feature/makers.jpg");
+                background-position: auto;
+            }
+            .backimg-3{
+                background-image: url("../img/feature/compost.jpg");
+                background-position: auto;
+            }
+    
+            .backimg-4{
+                background-image: url("../img/feature/expert.jpg");
+                background-position: auto;
+            }
+            .backimg-5{
+                background-image: url("../img/feature/bulbs.jpg");
+                background-position: auto;
+            }
+
 
             #e1{
                 @include md{
                     grid-area: e1;
-                    .backimg{
-                        background-image: url(...img/feature/drexel.jpg);
-                    }
                     
                 }
             }
             #e2{
                 @include md{
                     grid-area: e2;
-                    .backimg{
-                        background-image: url(...img/feature/makers.jpg);
-                    }
                     
                 }
             }
             #e3{
                 @include md{
                     grid-area: e3;
-                    .backimg{
-                        background-image: url(...img/feature/compost.jpg);
-                    }
-                    
                         
                 }
             }
             #e4{
                 @include md{
                     grid-area: e4;
-                    .backimg{
-                        background-image: url(...img/feature/expert.jpg);
-                    }
                     
                 }
             }
             #e5{
                 @include md{
                     grid-area: e5;
-                    .backimg{
-                        background-image: url(...img/feature/bulbs.jpg);
-                    }
-                    
+
                 }
             }
         }
