@@ -254,21 +254,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/Deploy\/css\/styles.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/Deploy\/css\/styles.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/Deploy\/img\/feature\/bulbs.jpg" : {
       "ft" : 16384,
       "iS" : 114508,
@@ -528,9 +513,9 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/Deploy\/css\/styles.scss",
-      "oF" : 3,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -606,6 +591,14 @@
       "oAP" : "\/Dev\/global\/header.html",
       "oF" : 0
     },
+    "\/Dev\/global\/scripts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/global\/scripts.html",
+      "oF" : 0
+    },
     "\/Dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -613,6 +606,17 @@
       "oA" : 0,
       "oAP" : "\/Deploy\/index.html",
       "oF" : 2
+    },
+    "\/Dev\/js\/scripts.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/js\/scripts-min.js",
+      "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/Dev\/scss\/base\/_base.scss" : {
       "aP" : 0,

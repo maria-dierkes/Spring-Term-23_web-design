@@ -3,23 +3,27 @@
 ============= */
 
 header{
-
+    position: fixed;
+    top: 0;
+    left: 0;
     display: grid;
     grid-template-columns: 50% auto;
-    grid-template-areas: repeat (2, 1fr)
+    grid-template-areas: 
     "logo burger-btn"
     "nav nav";
+    width: 100%;
+    box-shadow: 0px 5px 7px rgba(42, 48, 54, 0.3);
+    box-sizing: border-box;
 
     background-color: var(--iceblue);
 
     div{
         color: var(--flower);
         font-family: 'Poppins', 'Regular', 'Sans-serif';
-        position: fixed;
-        width: 100%;
+       
         background-color: var(--iceblue);
-        box-sizing: border-box;
-        box-shadow: 0px 5px 7px rgba(42, 48, 54, 0.3);
+        
+        
 
         #logo, #burger-btn {float:left; display: inline; width: 49%;}
 
@@ -40,7 +44,7 @@ header{
         grid-area: burger-btn;
         display: flex;
         align-items: center;
-        justify-content: flex-end;  
+        justify-content: right;  
         
         padding: 20px;
 
@@ -55,6 +59,14 @@ header{
             display: none;
         }
         
+
+    }
+
+    #main-menu{
+        display: none;
+        @include lg{
+            display: flex;
+        }
 
     }
 
