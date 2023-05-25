@@ -469,7 +469,7 @@ header div #burger-btn {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 26px;
+  padding: 20px;
   border: none;
   color: var(--flower);
   background-color: var(--iceblue);
@@ -562,6 +562,7 @@ footer > div #subscribe a:link, footer > div #subscribe a:visited {
   display: inline-block;
   transition: 0.25s;
   text-align: right;
+  border-radius: 0;
 }
 footer > div #subscribe a:link:hover, footer > div #subscribe a:link:active, footer > div #subscribe a:visited:hover, footer > div #subscribe a:visited:active {
   background-color: var(--lightflower);
@@ -736,6 +737,7 @@ div form button {
   display: inline-block;
   transition: 0.25s;
   text-align: center;
+  border-radius: 0;
 }
 #events > div ul a:link:hover, #events > div ul a:link:active, #events > div ul a:visited:hover, #events > div ul a:visited:active {
   background-color: var(--stormblue);
@@ -909,6 +911,7 @@ div form button {
   display: inline-block;
   transition: 0.25s;
   text-align: right;
+  border-radius: 0;
 }
 #explore > div ul a:link:hover, #explore > div ul a:link:active, #explore > div ul a:visited:hover, #explore > div ul a:visited:active {
   background-color: var(--stormblue);
@@ -1007,6 +1010,7 @@ div form button {
   font-weight: regular;
   padding: 16px;
   background-color: var(--iceblue);
+  border-radius: 0;
   display: inline-block;
   transition: 0.25s;
 }
