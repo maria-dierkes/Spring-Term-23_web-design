@@ -3,6 +3,8 @@
 ============= */
 
 #heroes{
+    scroll-margin-top: 200px;
+    
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". heroes .";

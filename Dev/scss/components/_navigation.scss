@@ -2,15 +2,22 @@
     Navigation
 ============= */
 
-html{
-    scroll-behavior: smooth;
-}
+
+
 .show-menu{
     display: block !important;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav{
+
     display: none;
+    text-align: right;
+
+    
 
     @include lg{
         display: block;
@@ -26,6 +33,7 @@ nav{
 
 
         li{
+            display: inline-block;
             text-align: right;
 
             @include lg{
@@ -35,6 +43,7 @@ nav{
                 display: inline-block;
                 color: var(--flower);
                 font-family: 'Poppins', 'Regular', 'Sans-serif';
+                font-size: 20px;
                 padding: 24px 26px;
                 
                 @include lg{

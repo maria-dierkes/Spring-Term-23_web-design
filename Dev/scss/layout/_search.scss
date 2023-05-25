@@ -5,24 +5,34 @@
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". search .";
         align-content: center;
+        margin-bottom: 24px;
         
+        margin-top: 200px;
+
+        @include md{
         margin-top: 220px;
+        }
+
+        @include lg{
+            margin-top: 300px;
+            }
     
         @include xxl{
             Display: grid;
             grid-template-columns: auto 1440px auto;
+
+            }
         }         
     
-        >div{
+        div{
             grid-area: search;
-            margin-top: 24px;
-            margin-bottom: 24px;
             align-content: center;
     
     
             a:link, a:visited {
                 text-decoration: none;
-                background-color: (var(--flower));
+                background-color: transparent;
+                color: (var(--ice));
                 padding: 16px;
                 display: inline-block;
                 transition: 0.25s;
@@ -33,7 +43,6 @@
                 &:active {
                     color: (var(--ice));
                     background-color:(var(--lightflower));
-                    border-radius: 20%;
                     padding: 22px;
                 }
             }
@@ -58,5 +67,4 @@
                 }
             }  
         } 
-    }
    

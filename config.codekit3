@@ -374,6 +374,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/Deploy\/img\/global\/logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 56144,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/img\/global\/logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Deploy\/img\/global\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -515,9 +528,9 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Deploy\/css\/styles.scss",
-      "oF" : 2,
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
     },
@@ -1173,7 +1186,7 @@
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
-    "esLintEnvironmentsMask" : 1,
+    "esLintEnvironmentsMask" : 8388609,
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
@@ -2136,7 +2149,7 @@
     "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
-    "jsCheckerReservedNamesString" : "",
+    "jsCheckerReservedNamesString" : "canSeeMenu:write; CanSeeMenu:write;",
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.js",
